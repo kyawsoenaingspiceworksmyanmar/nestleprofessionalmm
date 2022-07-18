@@ -22,6 +22,10 @@ header, hgroup, menu, nav, section, time, mark, audio, video {
     color: #111111;
     line-height: 1.5;
 }
+img{
+    width: 100%;
+    heighrt: auto;
+}
 
 /*MV_section*/
 .mv_sec {
@@ -42,10 +46,7 @@ header, hgroup, menu, nav, section, time, mark, audio, video {
     max-width: 475px;
     width: 46%;
 }
-.mv_img img{
-	width: 100%;
-	heighrt: auto;
-}
+
 .ttl_mv {
     font-size: 40px;
     color: #F18700;
@@ -186,7 +187,7 @@ header, hgroup, menu, nav, section, time, mark, audio, video {
 /*end of PC*/
 
 /*For Tablet*/
-@media only screen and (min-width: 768px) and (max-width: 1040px) {
+@media only screen and (min-width: 768px) and (max-width: 1039px) {
 
 /*MV_section*/
 .mv_sec {
