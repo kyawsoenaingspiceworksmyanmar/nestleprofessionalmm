@@ -11,8 +11,10 @@
     <meta http-equiv="Content-Script-Type" content="text/javascript" />
     <meta name="keywords" content="ネスレプロフェショナル Web" lang="ja" xml:lang="ja" />
     <meta name="description" content="Grow your operation with our culinary and beverage brands, products, systems services and expertise." lang="ja" xml:lang="ja" />
+
     <link rel="stylesheet" type="text/css" href="/assets/css/import.css" media="all" />
     <link rel="stylesheet" type="text/css" href="/assets/css/maggi/maggi.css" media="all" />
+
     <!-- Social -->
     <link rel="shortcut icon" href="/assets/images/favicon.ico" />
     <link rel="icon" href="/assets/images/favicon.ico" />
@@ -25,6 +27,7 @@
     <meta property="og:description" content="" /><!-- ページの説明 -->
     <!-- /facebook -->
     <meta name="twitter:card" content="summary">
+
     <!-- jquery.min.js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- jquery.min.js -->
@@ -35,35 +38,170 @@
         document.getElementsByTagName("html")[0].style.fontSize = window.innerWidth / 9.8 + 'px';
     }
     </script>
+
     <title>Nestlé Professional | ネスレプロフェショナル Web</title>
 </head>
 
 <body class="current_template maggi">
     <div class="wrapper">
+
         <!-- include header.html -->
         <?php require_once('include_files/header.html'); ?>
         <!-- /include header.html -->
-        <div class="content">
-            
-            <div class="inner">
-                <!-- product_banner -->
-                <div class="product_banner flex">
-                    <div class="product_des">
-                        <h3 class="ttl_common bold">日本のシェフの皆さまに<br>ご愛顧いただき90年。</h3>
-                        <p class="txt_common">”マギー”はホテルシェフを中心に代々受け継がれ、西洋料理の発展に貢献してまいりました。<br>「感動のお手伝い」をスローガンに、多忙なシェフに寄り添い多くのホテル・飲食店・施設のお客様にご愛用いただいております。</p>
-                    </div>
-                    <div class="product_img">
-                        <img src="/assets/images/maggi/bouillon/img_banner.png" alt="西洋風景 イメ－ジ">
-                    </div>
-                </div>
-                <!-- product_banner -->
 
-                
+        <div class="content">
+            <div class="inner">
+                <!-- Cooking Recipe List -->
+                <div class="cooking_recipe_sec">
+                    <h3 class="ttl_common_underline bold">プロ向けのアレンジレシピのご紹介</h3>
+                    <ul class="cooking_recipe_list flex">
+                        <li class="cooking_recipe_item">
+                            <figure>
+                                <img src="/assets/images/maggi/dessert/img_docello_recipe01.png" alt="クレームブリュレパンケーキ">
+                                <figcaption class="txt_common bold">クレームブリュレパンケーキ</figcaption>
+                            </figure>
+                            <div class="recipe_material_sec">
+                                <p class="btn_click_detail bold">材料・作り方はこちら</p>
+                                <div class="recipe_material_content">
+                                    <div class="recipe_material_list">
+                                        <div class="ttl_recipe_material flex">
+                                            <p class="txt_common_small bold">材料(4人分・1皿2人分盛付)</p>
+                                            <p class="txt_common_small">316kcal(1人分)</p>
+                                        </div>
+                                        <ul class="recipe_material_info">
+                                            <li class="flex">
+                                                <p class="txt_common_small bold">ネスレ ドチェロ クレームブリュレ</p>
+                                                <p class="txt_common_small">40g</p>
+                                            </li>
+                                            <li class="flex">
+                                                <p class="txt_common_small">牛乳</p>
+                                                <p class="txt_common_small">200ml</p>
+                                            </li>
+                                            <li class="flex">
+                                                <p class="txt_common_small">パンケーキ（直径10cm、厚さ2.5cm）</p>
+                                                <p class="txt_common_small">4枚</p>
+                                            </li>
+                                            <li class="flex">
+                                                <p class="txt_common_small">粉糖</p>
+                                                <p class="txt_common_small">7g</p>
+                                            </li>
+                                            <li class="flex">
+                                                <p class="txt_common_small">ホイップクリーム</p>
+                                                <p class="txt_common_small">適宜</p>
+                                            </li>
+                                            <li class="flex">
+                                                <p class="txt_common_small">セルフィーユ</p>
+                                                <p class="txt_common_small">適宜</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="recipe_material_list">
+                                        <p class="ttl_recipe_material txt_common_small bold">作り方</p>
+                                        <ul class="recipe_material_step">
+                                            <li class="txt_common_small">① 鍋に牛乳と<span class="bold">ネスレ ドチェロ クレームブリュレ</span>を入れ、泡だて器でよく混ぜ合わせる。
+                                            </li>
+                                            <li class="txt_common_small">② ①を火にかけ、鍋底からかき混ぜながらしっかりと沸騰させる。とろみがついたら火を止める。</li>
+                                            <li class="txt_common_small">③ ②を容器に移し、粗熱を取り、冷蔵庫で2～3時間冷やす。冷やし固まったら、ホイッパーでかき混ぜ、なめらかなクリーム状にする。</li>
+                                            <li class="txt_common_small">④ パンケーキ1枚の上に、③の一部をのせ、もう1枚を重ねる。残りの③を上からかけ、粉糖を振り、ガスバーナーで炙る。もう一皿も同様に盛り付ける。お好みで、ホイップクリーム、セルフィーユを飾る。</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cooking_recipe_item">
+                            <figure>
+                                <img src="/assets/images/maggi/dessert/img_docello_recipe02.png" alt="いちごのブリュレパフェ">
+                                <figcaption class="txt_common bold">いちごのブリュレパフェ</figcaption>
+                            </figure>
+                            <div class="recipe_material_sec">
+                                <p class="btn_click_detail bold">材料・作り方はこちら</p>
+                                <div class="recipe_material_content">
+                                    <div class="recipe_material_list">
+                                        <div class="ttl_recipe_material flex">
+                                            <p class="txt_common_small bold">材料(4人分)</p>
+                                            <p class="txt_common_small">368kcal(1人分)</p>
+                                        </div>
+                                        <ul class="recipe_material_info">
+                                            <li class="flex">
+                                                <p class="txt_common_small bold">ネスレ ドチェロ クレームブリュレ</p>
+                                                <p class="txt_common_small">40g</p>
+                                            </li>
+                                            <li class="flex">
+                                                <p class="txt_common_small">牛乳</p>
+                                                <p class="txt_common_small">200ml</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="recipe_material_list">
+                                            <p class="ttl_recipe_material txt_common_small bold">(A)</p>
+                                        <ul class="recipe_material_info">
+                                            <li class="flex">
+                                                <p class="txt_common_small bold">ネスレ ドチェロ デザートソース ストロベリー</p>
+                                                <p class="txt_common_small">150g</p>
+                                            </li>
+                                            <li class="flex">
+                                                <p class="txt_common_small">いちご（角切り）</p>
+                                                <p class="txt_common_small">60g</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="recipe_material_list">
+                                        <ul class="recipe_material_info">
+                                            <li class="flex">
+                                                <p class="txt_common_small">ホイップクリーム</p>
+                                                <p class="txt_common_small">150g</p>
+                                            </li>
+                                            <li class="flex">
+                                                <p class="txt_common_small">いちご（スライス）</p>
+                                                <p class="txt_common_small">50g</p>
+                                            </li>
+                                            <li class="flex">
+                                                <p class="txt_common_small">コーンフレーク無糖</p>
+                                                <p class="txt_common_small">20g</p>
+                                            </li>
+                                            <li class="flex">
+                                                <p class="txt_common_small">カソナード（ブラウンシュガー）</p>
+                                                <p class="txt_common_small">6g</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="recipe_material_list">
+                                        <p class="ttl_recipe_material txt_common_small bold">*トッピング</p>
+                                        <ul class="recipe_material_info">
+                                            <li class="flex">
+                                                <p class="txt_common_small">いちご（1/2カットしスライス）</p>
+                                                <p class="txt_common_small">適宜</p>
+                                            </li>
+                                            <li class="flex">
+                                                <p class="txt_common_small">ミント</p>
+                                                <p class="txt_common_small">適宜</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="recipe_material_list">
+                                        <p class="ttl_recipe_material txt_common_small bold">作り方</p>
+                                        <ul class="recipe_material_step">
+                                            <li class="txt_common_small">① 鍋に牛乳と<span class="bold">ネスレ ドチェロ クレームブリュレ</span>を入れ、泡だて器でよく混ぜ合わせる。</li>
+                                            <li class="txt_common_small">② ①を火にかけ、鍋底からかき混ぜながらしっかりと沸騰させる。とろみがついたら火を止める。</li>
+                                            <li class="txt_common_small">③ ②を容器に移し、粗熱を取り、冷蔵庫で2～3時間冷やす。冷やし固まったら、ホイッパーでかき混ぜ、なめらかなクリーム状にする。</li>
+                                            <li class="txt_common_small">④ グラスに、（A）、ホイップクリーム、いちご（スライス）、コーンフレーク、③を入れ、カソナードをかけて、ガスバーナーで炙る。お好みでいちご（1/2カットしスライス）、ミントをトッピングする。</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end of Cooking Recipe List -->
+            </div>
         </div>
+
         <!-- include footer.html -->
         <?php require_once('include_files/footer.html'); ?>
         <!-- /include footer.html -->
+
     </div>
+
     <script type="text/javascript" src="/assets/js/common.js"></script>
     <script type="text/javascript" src="/assets/js/script.js"></script>
 </body>
