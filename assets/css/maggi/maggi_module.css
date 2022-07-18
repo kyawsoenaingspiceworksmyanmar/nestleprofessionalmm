@@ -56,10 +56,11 @@ header, hgroup, menu, nav, section, time, mark, audio, video {
     color: #111111;
     line-height: 1.3;
 }
+.mb_40{
+    margin-bottom: 40px;
+}
 
 /*mv_section*/
-
-
 
 /*product_banner*/
 .product_banner{
@@ -68,7 +69,6 @@ header, hgroup, menu, nav, section, time, mark, audio, video {
     padding: 20px;
     -webkit-justify-content: space-between;
     justify-content: space-between;
-    margin-bottom: 40px;
 }
     
 .product_des {
@@ -100,7 +100,6 @@ header, hgroup, menu, nav, section, time, mark, audio, video {
     -webkit-box-shadow: 0 0 0 1px #DDDDDD;
             box-shadow: 0 0 0 1px #DDDDDD;
     padding: 20px;
-    margin-bottom: 40px;
 }
 
 .product_box{
@@ -146,10 +145,80 @@ header, hgroup, menu, nav, section, time, mark, audio, video {
 
 /*cooking_movies_sec*/
 
+
+/*banner02 */
+.banner02{
+    background: #F7F7F7 url(/assets/images/maggi/bouillon/img_banner02.png) no-repeat top right/auto 100%;
+    padding: 35px 30px;
+    margin-bottom: 20px;
+}
+
+.banner02 .ttl_common{
+    font-size: 30px;
+    background: linear-gradient(transparent 80%, #FFFF10 0%);
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.banner02 .txt_common {
+    width: 100%;
+    font-size: 20px;
+    padding-left: 10px;
+    text-indent: -10px;
+    margin-bottom: 10px;
+}
+.banner02 .product_des{
+    width: 100%;
+}
+
+/*banner02 */
+
+/*common_product_banner*/
+.common_product_banner{
+    width: 100%;
+    max-width: 940px;
+}
+    
+    
+
+
+
 /*end of PC*/
 
 /*For Tablet*/
-@media only screen and (min-width: 768px) and (max-width: 1039px) {
+@media only screen and (min-width: 768px) and (max-width: 1040px) {
+
+/*MV_section*/
+.mv_sec {
+    width: 100%;
+    max-width: 81.25%;
+    margin: 0 auto 3.846vw;
+}
+.mv_content {
+    width: 45%;
+    padding: 0 1.923vw  0 6.731vw;
+}
+.mv_img {
+    max-width: 45.673vw;
+    width: 46%;
+}
+
+.ttl_mv {
+    font-size: 3.846vw;
+    margin-bottom: 2.404vw;
+}
+.txt_common {
+    font-size: 16px;
+    color: #111111;
+    line-height: 1.3;
+}
+.mb_40{
+    margin-bottom: 40px;
+}
+
+/*mv_section*/
+
+
 
 }
 /*end of Tablet*/

@@ -122,6 +122,75 @@ header {
     margin: 10px 0;
 }
 
+
+/*For Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1039px) {
+
+.navbar {
+    width: 100%;
+    max-width: 78.125%;
+    margin: 0 auto;
+    padding-bottom: 2.500vw;
+
+}
+
+.logo {
+    padding: 1.563vw 0;
+}
+.menu_list {
+    right: 0;
+    bottom: 0;
+    padding-top: 0.781vw;
+}
+
+.menu_list li {
+    padding: 0 0.781vw;
+}
+
+
+.p_menu a {
+    line-height: 3.125vw;
+    font-size: 1.172vw;
+}
+
+.p_menu {
+    border-left: 0.078vw solid #d3d4d6;
+}
+
+
+.sub_menu {
+    margin: 0.781vw 0;
+    float: none;
+    left: 0;
+    top: 2.344vw;
+    min-width: 100%;
+    position: absolute;
+    z-index: 95;
+    -moz-border-radius-bottomleft: 0.234vw;
+    -webkit-border-bottom-left-radius: 0.234vw;
+    border-bottom-left-radius: 0.234vw;
+    -moz-border-radius-bottomright: 0.234vw;
+    -webkit-border-bottom-right-radius: 0.234vw;
+    border-bottom-right-radius: 0.234vw;
+}
+
+.sub_menu a {
+    font-size: 1.016vw;
+    line-height: 1.172vw;
+}
+
+.sub_menu li {
+    margin: 0.781vw 0;
+}
+
+}
+
+
+
+
+
+
+
 /*For SP*/
 @media only screen and (max-width: 767px) {
     .navbar {

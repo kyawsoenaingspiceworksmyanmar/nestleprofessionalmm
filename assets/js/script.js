@@ -10,22 +10,12 @@ $(document).ready(function(){
 });
 
 // Recipe Material
-function show_detail_box(id) {
-	$(id).addClass('show_detail');
-	$(id).find('.btn_click_detail').click(function() {
-		if($(id).hasClass('show_detail')){
-			$(id).removeClass('show_detail');
-		}
-		else{
-			$(id).addClass('show_detail');
-		}
-	});
-}
-
-$('#btnClick01').click(function() {
-	show_detail_box('#materialDetail01');
+$('.btn_click_detail').click(function() {
+	if($(this).parents(".recipe_material_sec").hasClass("show_detail")){
+		$(this).parents(".recipe_material_sec").removeClass("show_detail");
+	}
+	else{
+		$(this).parents(".recipe_material_sec").addClass("show_detail");
+	}
 });
 
-$('#btnClick02').click(function() {
-	show_detail_box('#materialDetail02');
-});

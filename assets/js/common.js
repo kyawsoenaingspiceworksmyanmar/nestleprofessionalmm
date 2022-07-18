@@ -93,9 +93,6 @@ jQuery(function($){
     if ($w.width() < 768) {
       return n * $w.width() / 7.5;
     }
-    else if($w.width() >= 767 && $w.width() <= 980){
-      return n * $w.width() / 9.8;
-    }
     
   };
 
@@ -106,12 +103,8 @@ jQuery(function($){
 
     });
 
-    responsive(768, 980, function(changed){
-      $h.css("font-size", rem(1));
-      if(!changed) return;
-    });
     
-    responsive(981, null, function(changed){
+    responsive(1040, null, function(changed){
       $h.css("font-size","");
       if(!changed) return;
     });
