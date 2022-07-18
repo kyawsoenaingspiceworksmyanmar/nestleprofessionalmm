@@ -2,13 +2,16 @@
 
 /*card_section*/
 .card_list{
-	width: 100%;
 	margin-bottom: 60px;
 }
 .card_item{
 	width: 23%;
 	max-width: 214px;
 	margin-right: 25px;
+}
+.card_item a{
+    width: 100%;
+    display: inline-block;
 }
 .card_item a:hover{
 	opacity: 0.8;
@@ -19,9 +22,6 @@
 /*card_section*/
 
 /*cooking section*/
-.cooking_items_sec{
-    margin-bottom: 40px;
-}
 .ttl_common_underline{
     font-size: 20px;
     color: #111111;
@@ -138,12 +138,213 @@ figcaption{
 
 /*For Tablet*/
 @media only screen and (min-width: 768px) and (max-width: 1039px) {
+    /*card_section*/
+    .card_list{
+        margin-bottom: 5.769vw;
+    }
+    .card_item{
+        max-width: 20.577vw;
+        margin-right: 2.404vw;
+    }
+    /*card_section*/
 
+    /*cooking section*/
+    .ttl_common_underline{
+        font-size: 1.923vw;
+        border-bottom: 0.192vw solid #F18700;
+        padding-bottom: 0.962vw;
+        margin-bottom: 2.115vw;
+    }
+    .cooking_item{
+        max-width: 28.846vw;
+        margin-right: 1.923vw;
+    }
+    figcaption{
+        margin-top: 1.538vw;
+    }
+    /*cooking section*/
+
+    /*Cooking Recipe List*/
+    .cooking_recipe_item{
+        max-width: 44.231vw;
+        margin-right: 1.923vw;
+        margin-bottom: 2.885vw;
+    }
+    .recipe_material_sec{
+        margin: 1.442vw 0;
+    }
+    .btn_click_detail{
+        font-size: 1.538vw;
+        border: 0.096vw solid #F18700;
+        border-radius: 0.481vw;
+        padding: 1.154vw 3.846vw 0.769vw 1.442vw;
+        margin-bottom: -0.096vw;
+    }
+    .btn_click_detail::after{
+        border-width: 0 0.192vw 0.192vw 0;
+        padding: 0.385vw;
+        right: 1.731vw;
+    }
+    .recipe_material_content{
+        border: 0.096vw solid #F18700;
+        border-radius: 0 0.481vw 0.481vw 0.481vw;
+        padding: 2.404vw;
+    }
+    .recipe_material_sec.show_detail .btn_click_detail{
+        border-radius: 0.481vw 0.481vw 0 0;
+    }
+    .recipe_material_sec.show_detail .btn_click_detail::after{
+        top: 1.635vw;
+    }
+    .recipe_material_list{
+        margin-bottom: 2.885vw;
+    }
+    .ttl_recipe_material{
+        margin-bottom: 1.923vw;
+    }
+    .recipe_material_info li{
+       padding: 0.962vw 0;
+       border-bottom: 0.192vw dotted #ccc;
+    }
+    .recipe_material_step li{
+        margin-bottom: 2.404vw;
+        padding-left: 1.923vw;
+        text-indent: -1.923vw;
+    }
+    /*end of Cooking Recipe List*/
 }
 /*end of Tablet*/
 
 /*For SP*/
 @media only screen and (max-width: 767px) {
+    /*card_section*/
+    .card_list{
+        margin-bottom: 0.8rem;
+    }
+    .card_item{
+        width: 50%;
+        max-width: 4.28rem;
+        margin: 0 0.30rem 0.30rem 0;
+    }
+    .card_item:nth-child(2n+2){
+        margin-right: 0;
+    }
+    .card_item:last-child{
+        margin: 0;
+    }
+    /*card_section*/
 
+    /*cooking section*/
+    .ttl_common_underline{
+        font-size: 20px;
+        color: #111111;
+        border-bottom: 2px solid #F18700;
+        padding-bottom: 10px;
+        margin-bottom: 22px;
+    }
+    .cooking_item{
+        width: 32%;
+        max-width: 300px;
+        margin-right: 20px;
+    }
+    .cooking_item:last-child{
+        margin-right: 0;
+    }
+    figcaption{
+        margin-top: 16px;
+    }
+    /*cooking section*/
+
+    /*Cooking Recipe List*/
+    .cooking_recipe_item{
+        width: 49%;
+        max-width: 460px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+    .cooking_recipe_item:nth-child(2n+2){
+        margin-right: 0;
+    }
+    .recipe_material_sec{
+        margin: 15px 0;
+    }
+    .btn_click_detail{
+        display: inline-block;
+        font-size: 16px;
+        color: #F18700;
+        background: #FAFAFA;
+        border: 1px solid #F18700;
+        border-radius: 5px;
+        padding: 12px 40px 8px 15px;
+        position: relative;
+        cursor: pointer;
+        margin-bottom: -1px;
+    }
+    .btn_click_detail::after{
+        content: '';
+        position: absolute;
+        border: solid #F18700;
+        border-width: 0 2px 2px 0;
+        padding: 4px;
+        -webkit-transform: rotate(45deg);
+           -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+             -o-transform: rotate(45deg);
+                transform: rotate(45deg);
+        right: 18px;
+    }
+    .recipe_material_content{
+        display: none;
+        background: #FAFAFA;
+        border: 1px solid #F18700;
+        border-radius: 0 5px 5px 5px;
+        padding: 25px;
+        -webkit-transition: all 0.35s;
+           -moz-transition: all 0.35s;
+            -ms-transition: all 0.35s;
+             -o-transition: all 0.35s;
+                transition: all 0.35s;
+    }
+    .recipe_material_sec.show_detail .recipe_material_content{
+        display: block;
+    }
+    .recipe_material_sec.show_detail .btn_click_detail{
+        border-bottom: 0;
+        border-radius: 5px 5px 0 0;
+    }
+    .recipe_material_sec.show_detail .btn_click_detail::after{
+        -webkit-transform: rotate(-135deg);
+           -moz-transform: rotate(-135deg);
+            -ms-transform: rotate(-135deg);
+             -o-transform: rotate(-135deg);
+                transform: rotate(-135deg);
+        top: 17px;
+    }
+    .recipe_material_list{
+        margin-bottom: 30px;
+    }
+    .recipe_material_list:last-child{
+        margin-bottom: 0;
+    }
+    .recipe_material_list .flex{
+        -webkit-justify-content: space-between;
+                justify-content: space-between;
+    }
+    .ttl_recipe_material{
+        margin-bottom: 20px;
+    }
+    .recipe_material_info li{
+       padding: 10px 0;
+       border-bottom: 2px dotted #ccc;
+    }
+    .recipe_material_step li{
+        margin-bottom: 25px;
+        padding-left: 20px;
+        text-indent: -20px;
+    }
+    .recipe_material_step li:last-child{
+        margin-bottom: 0;
+    }
+    /*end of Cooking Recipe List*/
 }
 /*end of SP*/
