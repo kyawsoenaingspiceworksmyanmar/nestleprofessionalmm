@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$(".menu_link").click(function(){
+		if($("body").hasClass("opened")){
+			$("body").removeClass("opened");
+		}
+		else{
+			$("body").addClass("opened");
+		}
+	});
+});

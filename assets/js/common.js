@@ -140,8 +140,8 @@ $(function() {
 
 // page_top
 $(document).ready( function(){
-        var topBtn = $('.page_top');       
-        topBtn.hide();
+        // var topBtn = $('.page_top');       
+        // topBtn.hide();
         //スクロールが100に達したらボタン表示
         $(window).scroll(function () {
                 if ($(this).scrollTop() > 100) {

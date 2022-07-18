@@ -1,0 +1,331 @@
+header {
+    background-image: linear-gradient(#ffffff, #dfdfdf);
+    background-size: 100%;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 32px;
+
+}
+
+.sp_navbar {
+    display: none;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.menu_list {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-top: 10px;
+}
+
+.menu_list li {
+    padding: 0 10px;
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.p_menu a {
+    color: #5c5c5c;
+    display: inline-block;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.p_menu:hover {
+    background: #ff8000;
+}
+
+.p_menu:hover a {
+    color: #ffffff;
+}
+
+.p_menu:first-child {
+    border: none;
+}
+
+.p_menu {
+    border-left: 1px solid #d3d4d6;
+}
+
+.p_menu .sub_menu {
+    display: none;
+    white-space: nowrap;
+}
+
+.p_menu:hover .sub_menu {
+    display: block;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.p_menu:hover .sub_menu a {
+    color: #5c5c5c;
+}
+
+.sub_menu {
+    margin: 10px 0;
+    float: none;
+    left: 0;
+    top: 30px;
+    min-width: 100%;
+    position: absolute;
+    z-index: 95;
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #ffffff;
+}
+
+.sub_menu a {
+    font-size: 13px;
+    color: #5c5c5c;
+    line-height: 15px;
+}
+
+.sub_menu li {
+    margin: 10px 0;
+}
+
+/*For SP*/
+@media only screen and (max-width: 767px) {
+    .navbar {
+        overflow: hidden;
+        background-color: #3f3e44;
+        left: -4.8rem;
+        padding: 0.2rem .3rem 0;
+        position: absolute;
+        text-align: left;
+        top: 0;
+        width: 4.8rem;
+        -moz-transition: -moz-transform 1s;
+        -o-transition: -o-transform 1s;
+        -webkit-transition: -webkit-transform 1s;
+        transition: transform 1s;
+        -moz-transform: translateX(-50px);
+        -ms-transform: translateX(-50px);
+        -webkit-transform: translateX(-50px);
+        transform: translateX(-50px);
+        -moz-transform: skewY(-10deg);
+        -ms-transform: skewY(-10deg);
+        -webkit-transform: skewY(-10deg);
+        transform: skewY(-10deg);
+    }
+
+    .opened .wrapper .navbar {
+        height: auto;
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+        -moz-transform: skewY(0deg);
+        -ms-transform: skewY(0deg);
+        -webkit-transform: skewY(0deg);
+        transform: skewY(0deg);
+    }
+
+    .wrapper {
+        float: left;
+        left: 0;
+        position: relative;
+        background: #f3f3f3;
+        transition: 1s;
+    }
+
+    .opened .wrapper {
+        position: relative;
+        left: 4.8rem;
+        transition: 1s;
+    }
+
+    .logo {
+        width: 2.64rem;
+        padding: .4rem 0;
+    }
+
+    .menu_list {
+        position: relative;
+        padding-top: .2rem;
+    }
+
+    .menu_list li {
+        width: 100%;
+        display: block;
+        margin-bottom: .5rem;
+        padding: 0 .2rem;
+    }
+
+    .p_menu {
+        border-left: none;
+        margin-bottom: .5rem;
+    }
+
+    .p_menu a {
+        color: #ffffff;
+    }
+
+    .p_menu .sub_menu {
+        width: 100%;
+        display: block;
+        position: relative;
+        white-space: initial;
+    }
+
+    .sub_menu {
+        background: none;
+    }
+
+    .sub_menu a {
+        font-size: .26rem;
+
+    }
+
+    .sub_menu li:last-child {
+        margin-bottom: 0;
+    }
+
+    .p_menu a {
+        font-size: .3rem;
+    }
+
+    .sub_menu {
+        margin: 0.2rem 0;
+        left: 0;
+        top: 0;
+        min-width: 100%;
+        -moz-border-radius-bottomleft: .06rem;
+        -webkit-border-bottom-left-radius: .6rem;
+        border-bottom-left-radius: .06rem;
+        -moz-border-radius-bottomright: .06rem;
+        -webkit-border-bottom-right-radius: .06rem;
+        border-bottom-right-radius: .06rem;
+    }
+
+    .sub_menu a {
+        font-size: .26rem;
+    }
+
+    .sub_menu li {
+        margin: 0.2rem 0;
+    }
+
+    .sp_navbar {
+        display: block;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0.21rem 0;
+    }
+
+    .menu_icon {
+        width: 0.5rem;
+        height: 0.06rem;
+        top: 0.1rem;
+        left: 0.3rem;
+        position: absolute;
+        z-index: 205;
+        cursor: pointer;
+    }
+
+    .menu_icon span:nth-child(1) {
+        top: 0.36rem;
+
+    }
+
+    .menu_icon span:nth-child(2) {
+        top: 0.48rem;
+    }
+
+    .menu_icon span:nth-child(3) {
+        top: 0.60rem;
+    }
+
+    .menu_icon span {
+        width: 0.45rem;
+        height: 0.06rem;
+        border-radius: 1rem;
+        left: 0.09rem;
+        background-color: #000000;
+    }
+
+    .opened .menu_icon span {
+        background-color: #f39801;
+    }
+
+    .menu_icon span {
+        position: absolute;
+        display: block;
+        transition: all 0.26s;
+    }
+
+    .txt_menu {
+        color: #3f3e44;
+        display: block;
+        position: absolute;
+        left: 1rem;
+        text-transform: uppercase;
+        font-size: 0.27rem;
+        top: 0.48rem;
+    }
+
+    .opened .txt_menu {
+        color: #f39801;
+    }
+
+    .menu_link {
+        display: inline-block;
+        position: absolute;
+        width: 30%;
+        left: 0;
+        top: -0.05rem;
+    }
+
+    .sp_navbar .logo {
+        width: 1.64rem;
+        height: auto;
+        padding: 0;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+/*end of SP*/
