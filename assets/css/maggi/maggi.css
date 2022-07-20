@@ -164,6 +164,202 @@
 
 /*maggi top page*/
 
+/*bouillon-consomme*/
+.bouillon_menu{
+	margin-top: 20px;
+}
+.bouillon_menu07, 
+.bouillon_menu28{
+	width: 209px;
+}
+.product_box_section .cooking_item{
+	max-width: 286px;
+}
+.allergen{
+	width: 100%;
+	background: #F7F7F7;
+	border: 1px solid #F18700;
+	border-radius: 5px;
+	margin: 0 0 40px 0;
+}
+.allergen .btn_click_detail{
+	display: block;
+	background: transparent;
+	border: 0;
+	border-radius: 0;
+	padding: 12px 30px;
+	margin: 0;
+}
+.allergen .btn_click_detail::after{
+	right: auto;
+	margin-left: 20px;
+}
+.allergen_des{
+	display: none;
+}
+.allergen.recipe_material_sec.show_detail .allergen_des{
+	display: block;
+}
+.allergen.recipe_material_sec.show_detail .btn_click_detail::after{
+	top: 17px;
+}
+.allergen_block{
+	background: repeating-linear-gradient(90deg, #f9f7eb 0px 15px, #fcfbf5 15px 25px);
+	padding: 50px 20px;
+}
+.item_bouillon{
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.item_material{
+	width: 65%;
+}
+.ttl_material,
+.ttl_bouillon{
+	color: #000000;
+	margin-bottom: 20px;
+}
+.ttl_material{
+	font-size: 32px;
+}
+.ttl_bouillon{
+	font-size: 36px;
+}
+.ttl_bouillon span{
+	font-size: 48px;
+	color: #FF0000;
+}
+.txt_material{
+	border-radius: 20px;
+	background: #FFF440;
+	display: inline-block;
+	padding: 10px 17px;
+}
+.txt_material span{
+	color: #FF0000;
+}
+.material_img{
+	width: 25%;
+	max-width: 222px;
+}
+.doctor_info{
+	background: #FFFFFF;
+	padding: 45px 30px 10px 30px;
+}
+.txt_recommend{
+	font-size: 20px;
+	color: #fff;
+	padding: 10px 15px;
+	background: #8C6F59;
+	margin-bottom: 12px;
+}
+.info_column{
+	width: 50%;
+}
+.info_list{
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-bottom: 20px;
+}
+.info_img{
+	width: 34%;
+	max-width: 140px;
+}
+.info_content{
+	width: 60%;
+}
+.txt_info_name{
+	font-size: 18px;
+	color: #101010;
+	line-height: 1.5;
+	margin-bottom: 5px;
+}
+.info_content .txt_common_small{
+	font-size: 12px;
+}
+.info_history{
+	margin-bottom: 20px;
+}
+.info_history .txt_common_small{
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.info_history .txt_common_small:last-child{
+	margin-bottom: 0;
+}
+.info_url{
+	color: #245CEB;
+	text-decoration: underline;
+	position: relative;
+	display: inline-block;
+}
+.info_url::after{
+	content: '';
+	position: absolute;
+	background: url(/assets/images/maggi/bouillon/icon_href.png) no-repeat right;
+	width: 15px;
+	height: 15px;
+	top: 3px;
+}
+.column02 .txt_common_small{
+	margin-bottom: 30px;
+}
+.column02 .txt_common_small span{
+	color: #FF0000;
+}
+.raw_material_block{
+	padding: 60px 80px 50px 80px;
+	text-align: center;
+}
+.ttl_allergy-specific{
+	margin-bottom: 25px;
+}
+.ttl_food_allergen{
+	font-size: 30px;
+	background: linear-gradient(transparent 80%, #FFFF10 0%);
+	display: inline-block;
+}
+.txt_raw_material{
+	font-size: 24px;
+	color: #000000;
+	line-height: 1.3;
+	margin-bottom: 25px;
+}
+.txt_second_material{
+	margin-bottom: 30px;
+}
+.txt_table_title{
+	background: #7D7D7D;
+	margin-bottom: 0;
+}
+.allergen_list_table{
+	background: #fff;
+	border-left: 1px solid #707070;
+	border-right: 1px solid #707070;
+}
+.allergen_td{
+	width: 122.6px;
+	padding: 12px 0;
+	border-right: 1px solid #707070;
+	border-bottom: 1px solid #707070;
+}
+.allergen_td .txt_common{
+	line-height: 1;
+}
+.allergen_td:nth-child(6n+6), 
+.allergen_td:last-child{
+	border-right: 0;
+}
+.txt_none{
+	background: url(/assets/images/maggi/bouillon/img_path_line.png) no-repeat top center;
+	-webkit-background-size: 100% 40px;
+	     -o-background-size: 100% 40px;
+	        background-size: 100% 40px;
+	width: 245.2px;
+}
+/*end of bouillon-consomme*/
 
 /*end of PC*/
 
