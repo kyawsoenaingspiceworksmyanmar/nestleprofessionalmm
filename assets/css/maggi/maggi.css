@@ -320,6 +320,7 @@
 	font-size: 30px;
 	background: linear-gradient(transparent 80%, #FFFF10 0%);
 	display: inline-block;
+    margin-bottom: 0;
 }
 .txt_raw_material{
 	font-size: 24px;
@@ -330,7 +331,7 @@
 .txt_second_material{
 	margin-bottom: 30px;
 }
-.txt_table_title{
+.txt_recommend.txt_table_title{
 	background: #7D7D7D;
 	margin-bottom: 0;
 }
@@ -479,6 +480,128 @@
 /*category section*/
 
 /*maggi top page*/
+
+    /*bouillon-consomme*/
+    .bouillon_menu{
+        margin-top: 1.923vw;
+    }
+    .bouillon_menu07, 
+    .bouillon_menu28{
+        width: 20.096vw;
+    }
+    .product_box_section .cooking_item{
+        max-width: 27.500vw;
+    }
+    .allergen{
+        border: 0.096vw solid #F18700;
+        border-radius: 0.096vw;
+        margin: 0 0 3.846vw 0;
+    }
+    .allergen .btn_click_detail{
+        padding: 1.154vw 2.885vw;
+    }
+    .allergen .btn_click_detail::after{
+        margin-left: 1.923vw;
+    }
+    .allergen.recipe_material_sec.show_detail .btn_click_detail::after{
+        top: 1.635vw;
+    }
+    .allergen_block{
+        padding: 4.808vw 1.923vw;
+    }
+    .item_bouillon{
+        margin-bottom: 0.962vw;
+    }
+    .ttl_material,
+    .ttl_bouillon{
+        margin-bottom: 1.923vw;
+    }
+    .ttl_material{
+        font-size: 2.885vw;
+    }
+    .ttl_bouillon{
+        font-size: 3.269vw;
+    }
+    .ttl_bouillon span{
+        font-size: 3.846vw;
+    }
+    .txt_material{
+        border-radius: 1.923vw;
+        padding: 0.962vw;
+    }
+    .material_img{
+        max-width: 21.346vw;
+    }
+    .doctor_info{
+        padding: 4.327vw 4.327vw 0.962vw 4.327vw;
+    }
+    .txt_recommend{
+        font-size: 1.923vw;
+        padding: 0.962vw 1.442vw;
+        margin-bottom: 1.154vw;
+    }
+    .info_list{
+        margin-bottom: 1.923vw;
+    }
+    .info_img{
+        max-width: 13.462vw;
+    }
+    .txt_info_name{
+        font-size: 1.442vw;
+        margin-bottom: 0.481vw;
+    }
+    .info_content .txt_common_small{
+        font-size: 1.154vw;
+    }
+    .info_history{
+        margin-bottom: 1.923vw;
+    }
+    .info_history .txt_common_small{
+        font-size: 1.154vw;
+        margin-bottom: 0.962vw;
+    }
+    .info_url::after{
+        width: 1.442vw;
+        height: 1.442vw;
+        top: 0.288vw;
+        right: 0;
+    }
+    .column02 .txt_common_small{
+        margin-bottom: 2.885vw;
+    }
+    .raw_material_block{
+        padding: 5.769vw 5.769vw 4.808vw 5.769vw;
+    }
+    .ttl_allergy-specific{
+        margin-bottom: 2.404vw;
+    }
+    .ttl_food_allergen{
+        font-size: 2.885vw;
+    }
+    .txt_raw_material{
+        font-size: 2.115vw;
+        margin-bottom: 2.404vw;
+    }
+    .txt_second_material{
+        margin-bottom: 2.885vw;
+    }
+    .allergen_list_table{
+        border-left: 0.096vw solid #707070;
+        border-right: 0.096vw solid #707070;
+    }
+    .allergen_td{
+        width: 9.589vw;
+        padding: 1.154vw 0;
+        border-right: 0.096vw solid #707070;
+        border-bottom: 0.096vw solid #707070;
+    }
+    .txt_none{
+        -webkit-background-size: 100% 3.846vw;
+             -o-background-size: 100% 3.846vw;
+                background-size: 100% 3.846vw;
+        width: 19.178vw;
+    }
+    /*end of bouillon-consomme*/
 }
 /*end of Tablet*/
 

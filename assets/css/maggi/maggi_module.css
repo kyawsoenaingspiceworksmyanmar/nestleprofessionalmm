@@ -238,6 +238,9 @@ br.only_pc{
     font-size: 1.538vw;
     line-height: 1.3;
 }
+.mb_60{
+    margin-bottom: 5.769vw;
+}
 .mb_40{
     margin-bottom: 3.846vw;
 }
@@ -294,12 +297,12 @@ br.only_pc{
     width: 3.558vw;
     padding: 0.192vw;
     margin-right: 0.385vw;
-    height: 0.385vw;
+    height: 3.846vw;
 }
 .instruction_txt {
-    width: 34.615vw;
+    width: 25.846vw;
     padding: 0.192vw;
-    font-size: 0.192vw;
+    font-size: 1.346vw;
     line-height: 1.2;
 }
 
@@ -318,6 +321,9 @@ br.only_pc{
 /*banner02 */
 .banner02{
     background: #F7F7F7 url(/assets/images/maggi/bouillon/img_banner02.png) no-repeat top right/auto 100%;
+    -webkit-background-size: 28.750vw 20.096vw;
+         -o-background-size: 28.750vw 20.096vw;
+            background-size: 28.750vw 20.096vw;
     padding: 3.365vw 2.885vw;
     margin-bottom: 1.923vw;
 }
@@ -328,7 +334,6 @@ br.only_pc{
 }
 
 .banner02 .txt_common {
-    width: 100%;
     font-size: 1.923vw;
     padding-left: 0.962vw;
     text-indent: -0.962vw;
@@ -389,6 +394,9 @@ br.only_pc{
 }
 .txt_common {
     font-size: .32rem;
+}
+.mb_60{
+    margin-bottom: 1.2rem;
 }
 .mb_40{
     margin-bottom: .8rem;
