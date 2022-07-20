@@ -134,6 +134,60 @@ figcaption{
 }
 /*end of Cooking Recipe List*/
 
+/*Social*/
+.social_sec{
+    background: #f2f2f2;
+    padding: 20px 0;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.txt_social_menu{
+    margin-right: 10px;
+}
+.social_item{
+    width: 130px;
+    background: #fff;
+    margin-right: 15px;
+    padding: 8px 0;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.2s ease-in-out;
+       -moz-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+         -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: space-around;
+            justify-content: space-around;
+}
+.social_item:last-child{
+    margin-right: 0;
+}
+.social_item img{
+    width: 24px;
+}
+.social_item .txt_common_small{
+    color: #004692;
+}
+.social_item:hover{
+    -webkit-transition: all .3s ease;
+       -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+         -o-transition: all .3s ease;
+            transition: all .3s ease;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.35);
+}
+.social_item:hover .txt_common_small{
+    color: #666;
+    text-decoration: underline;
+}
+/*end of Social*/
+
 /*end of PC*/
 
 /*For Tablet*/
@@ -215,6 +269,30 @@ figcaption{
         text-indent: -1.923vw;
     }
     /*end of Cooking Recipe List*/
+    
+    /*Social*/
+    .social_sec{
+        padding: 1.923vw 0;
+    }
+    .txt_social_menu{
+        margin-right: 0.962vw;
+    }
+    .social_item{
+        width: 12.500vw;
+        margin-right: 1.442vw;
+        padding: 0.769vw 0;
+        border-radius: 0.385vw;
+        -webkit-box-shadow: 0 0.192vw 0.288vw rgba(0, 0, 0, 0.15);
+                box-shadow: 0 0.192vw 0.288vw rgba(0, 0, 0, 0.15);
+    }
+    .social_item img{
+        width: 2.308vw;
+    }
+    .social_item:hover{
+        -webkit-box-shadow: 0 0.288vw 0.577vw rgba(0, 0, 0, 0.35);
+                box-shadow: 0 0.288vw 0.577vw rgba(0, 0, 0, 0.35);
+    }
+    /*end of Social*/
 }
 /*end of Tablet*/
 
@@ -311,5 +389,39 @@ figcaption{
         text-indent: -0.40rem;
     }
     /*end of Cooking Recipe List*/
+    
+    /*Social*/
+    .social_sec{
+        padding: 0.40rem 0;
+    }
+    .txt_social_menu{
+        margin: 0 0 0.20rem 0;
+        width: 100%;
+        text-align: center;
+    }
+    .social_list{
+        -webkit-justify-content: center;
+                justify-content: center;
+    }
+    .social_item{
+        width: 3rem;
+        margin-right: 0.30rem;
+        margin-bottom: 0.20rem;
+        padding: 0.16rem 0;
+        border-radius: 0.08rem;
+        -webkit-box-shadow: 0 0.04rem 0.06rem rgba(0, 0, 0, 0.15);
+                box-shadow: 0 0.04rem 0.06rem rgba(0, 0, 0, 0.15);
+    }
+    .social_item:nth-child(2n+2){
+        margin-right: 0;
+    }
+    .social_item img{
+        width: 0.48rem;
+    }
+    .social_item:hover{
+        -webkit-box-shadow: 0 0.06rem 0.12rem rgba(0, 0, 0, 0.35);
+                box-shadow: 0 0.06rem 0.12rem rgba(0, 0, 0, 0.35);
+    }
+    /*end of Social*/
 }
 /*end of SP*/
