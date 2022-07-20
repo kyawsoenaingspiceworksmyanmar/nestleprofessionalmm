@@ -8,6 +8,7 @@ footer .inner {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .title_sec {
@@ -22,6 +23,7 @@ footer .inner {
     margin-bottom: 15px;
     text-transform: uppercase;
     font-size: 25px;
+    font-weight: 700;
 }
 
 .common_txt,
@@ -48,7 +50,8 @@ footer .inner {
 }
 
 .contact_icon {
-    width: 55px;
+    width: 40px;
+    margin-right: 10px;
 }
 
 .contact_ttl {
@@ -217,10 +220,11 @@ footer .inner {
         padding: 0.4rem .4rem 0.8rem;
     }
 
-    .inner {
+    footer .inner {
         width: 100%;
         max-width: 100%;
         margin: 0 auto;
+        padding: 0;
     }
 
     .title_sec {
@@ -244,6 +248,9 @@ footer .inner {
         margin-bottom: .2rem;
         max-width: 100%;
     }
+    .p_menu:hover {
+        background: none;
+    }
 
     .contact_sec {
         width: 100%;
@@ -257,17 +264,18 @@ footer .inner {
     }
 
     .contact_icon {
-        width: 1.1rem;
+        width: 0.8rem;
     }
 
     .contact_ttl {
         font-size: .26rem;
-        padding-bottom: .4rem;
+        padding-bottom: .1rem;
         margin-bottom: 0;
     }
 
     .footer_sec {
         padding: .4rem;
+        margin-right: .2rem;
     }
 
     .footer_sec .inner.flex {
@@ -277,7 +285,7 @@ footer .inner {
     }
 
     .footer_sec .logo_sec {
-        width: 3.2rem;
+        width: 2.85rem;;
         margin: 0 auto;
         text-align: center;
     }
@@ -289,12 +297,12 @@ footer .inner {
 
     .footer_sec a {
         font-size: .26rem;
-        line-height: .44rem;
+        line-height: 1.5;
     }
 
     .f_menu {
         width: 100%;
-        padding-top: 0.1rem;
+        padding-top: 0;
     }
 
     .footer_sec .txt_nestle {
@@ -306,6 +314,4 @@ footer .inner {
 	    font-size: .26rem;
 	    padding-right: .4rem;
 	}
-
-
 }

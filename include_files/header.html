@@ -1,15 +1,18 @@
+<?php
+$url =$_SERVER['PHP_SELF'];
+?>
 <header>
     <div class="navbar">
         <a href="#" class="logo">
             <img src="assets/images/logo-nestle-professional.svg" data-src-sp="assets/images/logo-nestle-professional_sp.svg" alt="">
         </a>
         <ul class="menu_list flex">
-            <li class="p_menu"><a href="/maggi">マギー</a>
+            <li class="p_menu"><a href="/maggi" class="<?php echo ($url == '/maggi/index.html')? 'active':''; ?>">マギー</a>
                 <ul class="sub_menu">
-                    <li><a href="/maggi/bouillon-consomme"> ・ブイヨン・コンソメ</a></li>
-                    <li><a href="/maggi/dessert"> ・デザート</a></li>
-                    <li><a href="/maggi/ethnic"> ・エスニック</a></li>
-                    <li><a href="/maggi/sauce"> ・ソース・その他</a></li>
+                    <li><a href="/maggi/bouillon-consomme" class="<?php echo ($url == '/maggi/bouillon-consome/index.html')? 'active':''; ?>"> ・ブイヨン・コンソメ</a></li>
+                    <li><a href="/maggi/dessert" class="<?php echo ($url == '/maggi/dessert/index.html')? 'active':''; ?>"> ・デザート</a></li>
+                    <li><a href="/maggi/ethnic" class="<?php echo ($url == '/maggi/ethnic/index.html')? 'active':''; ?>"> ・エスニック</a></li>
+                    <li><a href="/maggi/sauce" class="<?php echo ($url == '/maggi/sauce/index.html')? 'active':''; ?>"> ・ソース・その他</a></li>
                 </ul>
             </li>
             <li class="p_menu">

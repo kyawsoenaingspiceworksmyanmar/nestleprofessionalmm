@@ -388,6 +388,10 @@ header {
         width: 100%;
         margin: 0 auto;
     }
+    .p_menu a.active,
+    .sub_menu a.active{
+        color: #f39801;
+    }
 
 }
 
