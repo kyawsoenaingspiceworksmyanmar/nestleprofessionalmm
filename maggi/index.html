@@ -9,57 +9,221 @@
     <meta http-equiv="Content-Language" content="ja" />
     <meta http-equiv="Content‒Style‒Type" content="text/css" />
     <meta http-equiv="Content-Script-Type" content="text/javascript" />
-    <meta name="keywords" content="" lang="ja" xml:lang="ja" />
-    <meta name="description" content="" lang="ja" xml:lang="ja" />
-
+    <meta name="keywords" content="ネスレプロフェショナル Web" lang="ja" xml:lang="ja" />
+    <meta name="description" content="Grow your operation with our culinary and beverage brands, products, systems services and expertise." lang="ja" xml:lang="ja" />
     <link rel="stylesheet" type="text/css" href="../assets/css/import.css" media="all" />
     <link rel="stylesheet" type="text/css" href="../assets/css/maggi/maggi.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/slick-theme.css"/>
+
     <!-- Social -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
     <link rel="icon" href="/assets/images/favicon.ico" />
     <!-- facebook -->
-    <meta property="og:site_name" content="" />
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
+    <meta property="og:site_name" content="ネスレプロフェショナル Web" />
+    <meta property="og:title" content="ネスレプロフェショナル Web" />
+    <meta property="og:type" content="website" />
     <meta property="og:url" content="" /><!-- ページの個別URL -->
     <meta property="og:image" content="/assets/images/img_ogp.jpg" />
     <meta property="og:description" content="" /><!-- ページの説明 -->
     <!-- /facebook -->
-    <meta name="twitter:card" content="summary_large_image">
-
+    <meta name="twitter:card" content="summary">
     <!-- jquery.min.js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- jquery.min.js -->
-
     <script>
-		if (window.innerWidth < 768) {
-		    document.getElementsByTagName("html")[0].style.fontSize = window.innerWidth / 7.5 + 'px';
-		} else if (window.innerWidt >= 767 && window.innerWidt <= 980) {
-		    document.getElementsByTagName("html")[0].style.fontSize = window.innerWidth / 9.8 + 'px';
-		}
+    if (window.innerWidth < 768) {
+        document.getElementsByTagName("html")[0].style.fontSize = window.innerWidth / 7.5 + 'px';
+    } else if (window.innerWidt >= 767 && window.innerWidt <= 980) {
+        document.getElementsByTagName("html")[0].style.fontSize = window.innerWidth / 9.8 + 'px';
+    }
     </script>
-
-    <title>Nestle Professional</title>
+    <title>マギー | ネスレプロフェショナル Web</title>
 </head>
-<body class="current_maggi maggi">
-    <div class="wrapper open">
-	<!-- include header.html -->
-		<?php require_once('../include_files/header.html'); ?>
-	<!-- /include header.html -->
 
-	<div class="content">
-        <h1>maggi page</h1>
-		<!-- content here -->
-	</div>
-    <footer>
-        <!-- include footer.html -->
-        <?php require_once('../include_files/info.html'); ?>
-        <?php require_once('../include_files/footer.html'); ?>
-    <!-- /include footer.html -->
-    </footer>
-	
+<body class="current_maggitop maggi">
+    <div class="wrapper">
+        <!-- include header.html -->
+        <?php require_once('../include_files/header.html'); ?>
+        <!-- /include header.html -->
+        <div class="content">
+            <!-- MV_section -->
+            <div class="mv_sec flex">
+                <div class="mv_slider">
+                    <img src="/assets/images/maggi/img_mv01.png" alt="ブイヨン・コンソメ">
+                    <img src="/assets/images/maggi/img_mv02.png" alt="ブイヨン・コンソメ">
+                    <img src="/assets/images/maggi/img_mv03.png" alt="ブイヨン・コンソメ">
+                    <img src="/assets/images/maggi/img_mv04.png" alt="ブイヨン・コンソメ">
+                    <img src="/assets/images/maggi/img_mv05.png" alt="ブイヨン・コンソメ">
+                </div>
+                <div class="mv_detail">
+                    <h2 class="mv_ttl maggi_font">
+                        <span class="maggi_font">「感動のお手伝い」</span></h2>
+                        <p class="detail_txt maggi_font">をスローガンに、<br>豊かな経験と知識、そしてグローバルなネットワークを持ってお客様にとっての最高のソリューションプロバイダーを目指します。</p>
+                </div>
+            </div>
+            <!-- MV_section -->
+            <div class="inner">
+                <section class="recommend_section">
+                <h3 class="sub_ttl maggi_font">おすすめ情報</h3>
+                <ul class="recommend_list flex">
+                  <li>
+                    <a href="/ethnic/#tandoori_chicken">
+                      <img src="/assets/images/maggi/bnr_recommend_01.png" alt="タンドリーチキン アレンジレシピ">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/sauce/#potato">
+                      <img src="/assets/images/maggi/bnr_recommend_02.png" alt="マギー クリーミー マッシュポテトミックス">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/bouillon-consomme/#allergen">
+                      <img src="/assets/images/maggi/bnr_recommend_03.png" alt="マギー アレルゲン対応 無添加ブイヨン">
+                    </a>
+                  </li>
+                </ul>
+            </section>
+
+            <section class="category_section">
+            <h3 class="sub_ttl maggi_font">カテゴリーから探す</h3>
+                <ul class="category_list flex">
+                    <li>
+                        <dl class="category_item">
+                          <dt class="categoryitem_ttl">ブイヨン・コンソメ</dt>
+                          <dd class="categoryitem_body">
+                            <div class="categoryitem_img">
+                              <img src="/assets/images/maggi/img_category_bouillon.png" alt="ブイヨン・コンソメ イメージ">
+                            </div>
+                            <div class="categoryitem_details">
+                              <p class="categoryitem_txt maggi_font01">定番の“マギー”ブイヨン・コンソメをはじめ、香料・着色料無添加、アレルギー対応のブイヨン、液状タイプまで幅広く取りそろえています。</p>
+                              <ul class="categoryitem_list">
+                                <li>
+                                  <a href="/bouillon-consomme/#bouillon-consomme" data-ectrakid="ec_nestle-professional_categoryBouillonConsomme_bouillonConsomme">マギー ブイヨン・コンソメ</a>
+                                </li>
+                                <li>
+                                  <a href="/bouillon-consomme/#mutenka" data-ectrakid="ec_nestle-professional_categoryBouillonConsomme_mutenka">マギー 無添加 ブイヨン・コンソメ</a>
+                                </li>
+                                <li>
+                                  <a href="/bouillon-consomme/#liquid" data-ectrakid="ec_nestle-professional_categoryBouillonConsomme_liquid">マギー 液状濃縮 ブイヨン・コンソメ</a>
+                                </li>
+                               
+                              </ul>
+                            </div>
+                          </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl class="category_item" >
+                          <dt class="categoryitem_ttl bg_ttl01">エスニック</dt>
+                          <dd class="categoryitem_body">
+                            <div class="categoryitem_img">
+                              <img src="/assets/images/maggi/img_category_ethnic.png" alt="エスニック イメージ">
+                            </div>
+                            <div class="categoryitem_details">
+                              <p class="categoryitem_txt maggi_font01">世界で最初に製品化されたカレー粉「C&amp;B 純カレーパウダー」を始め、ネスレのグローバルなネットワークを生かした、本場のエスニック料理が簡単に作れる製品をお届けします。</p>
+                              <ul class="categoryitem_list">
+                                <li>
+                                  <a href="/ethnic/#curry">C&amp;B カレーシリーズ</a>
+                                </li>
+                                <li>
+                                  <a href="/ethnic/#tandoori_chicken">マギー スパイスイット タンドリーチキン</a>
+                                </li>
+                                <li>
+                                  <a href="/ethnic/#chilisauce">マギー チリソース</a>
+                                </li>
+                                <li>
+                                  <a href="/ethnic/#coconut">マギー ココナッツミルク ノンスイート</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </dd>
+                        </dl>
+                    </li>
+                    <li>
+                    <dl class="category_item" >
+                      <dt class="categoryitem_ttl">ソース・その他</dt>
+                      <dd class="categoryitem_body">
+                        <div class="categoryitem_img">
+                          <img src="/assets/images/maggi/img_category_sauce.png" alt="ソース・その他 イメージ">
+                        </div>
+                        <div class="categoryitem_details">
+                          <p class="categoryitem_txt maggi_font01">プロの方にもご愛用いただいている、本格的なソースやマッシュポテトが簡単にお作りいただけます。</p>
+                          <ul class="categoryitem_list">
+                            <li>
+                              <a href="/sauce/#sauce">マギー ソース</a>
+                            </li>
+                            <li>
+                              <a href="/sauce/#tomatocoulis">マギー トマトクーリ</a>
+                            </li>
+                            <li>
+                              <a href="/sauce/#potato">マギー クリーミー マッシュポテトミックス</a>
+                            </li>
+                            <li>
+                              <a href="/sauce/#aspic">マギー アスピック</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </dd>
+                    </dl>
+                  </li>
+                  <li>
+            <dl class="category_item">
+              <dt class="categoryitem_ttl">デザート</dt>
+              <dd class="categoryitem_body">
+                <div class="categoryitem_img">
+                  <img src="/assets/images/maggi/img_category_dessert.png" alt="デザート イメージ">
+                </div>
+                <div class="categoryitem_details">
+                  <p class="categoryitem_txt maggi_font01">パティシエが作るような本格的なデザートを簡単に作ってみませんか。様々なシーンでお役立ていただける各種デザート製品をお届けいたします。</p>
+                  <ul class="categoryitem_list">
+                    <li>
+                      <a href="/dessert/#docello" >デザートミックス（小分けタイプ）</a>
+                    </li>
+                    <li>
+                      <a href="/dessert/#docello_mix">デザートミックス</a>
+                    </li>
+                    <li>
+                      <a href="/dessert/#sauce">ドチェロ デザートソース</a>
+                    </li>
+                  </ul>
+                </div>
+              </dd>
+            </dl>
+          </li>
+                </ul>
+        </section>
+
+            </div>
+            
+
+        </div>
+        <!-- include maggi-social.html -->
+        <?php require_once('../include_files/maggi-social.html'); ?>
+        <!-- include maggi-social.html -->
+        <footer>
+            <!-- include footer.html -->
+            <?php require_once('../include_files/info.html'); ?>
+            <?php require_once('../include_files/footer.html'); ?>
+            <!-- /include footer.html -->
+        </footer>
     </div>
- <script type="text/javascript" src="../assets/js/common.js"></script>
+    <script type="text/javascript" src="../assets/js/common.js"></script>
     <script type="text/javascript" src="../assets/js/script.js"></script>
+    <script type="text/javascript" src="../assets/js/slick.min.js"></script>
+     <script type="text/javascript">
+        $(document).ready(function(){
+          $('.mv_slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            autoplay: true,
+            arrows: false,
+            cssEase: 'linear'
+          });
+        });
+  </script>
 </body>
+
 </html>

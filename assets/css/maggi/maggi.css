@@ -4,21 +4,438 @@
 @import "maggi_list_module.css";
 /*end maggi module*/
 
-
-
 /*For PC*/
+
+/*maggi top page*/
+
+/*mv_slider*/
+.current_maggitop .mv_sec{
+    margin-bottom: 65px;
+}
+.mv_slider {
+    width: 46.2%;
+    max-width: 480px;
+    
+}
+
+.mv_detail {
+    width: 53.8%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.mv_ttl {
+    width: 100%;
+    color: #F18700;
+    font-weight: bold;
+}
+
+.mv_ttl span {
+    font-size: 50px;
+}
+
+.mv_ttl small {
+    font-size: 43px;
+}
+
+.detail_txt {
+    font-size: 16px;
+    font-weight: bold;
+    color: #111111;
+    line-height: 1.6;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 74px;
+}
+/*mv_slider*/
+
+/*recommend_section*/
+.sub_ttl{
+    font-size: 32px;
+    font-weight: normal;
+    color: #111111;
+    display: inline-block;
+    border-bottom: 2px solid #F18700;
+    margin-bottom: 30px;
+}
+
+.recommend_section {
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+.recommend_list {
+    margin: 0 auto;
+}
+
+.recommend_list li {
+    width: 50%;
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+/*recommend_section*/
+
+
+/*category section*/
+.category_section{
+	text-align: center;
+}
+.category_list {
+    margin: 0 auto;
+}
+
+.categoryitem_body {
+    background-color: #F7F7F7;
+    min-height: 550px;
+}
+
+.category_list li {
+    width: 50%;
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+
+.categoryitem_ttl {
+    background-color: #FFEE09;
+    color: #000;
+    padding: 13px;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.categoryitem_ttl.bg_ttl01 {
+    background-color: #155729;
+    color: #fff;
+}
+
+.categoryitem_details {
+    font-weight: 500;
+    padding: 0px 30px;
+}
+
+
+.categoryitem_txt {
+    border-bottom: 2px dotted #ccc;
+    padding: 15px 5px;
+    line-height: 1.8;
+    text-align: left;
+    font-size: 13px;
+    color: #111111;
+}
+
+.categoryitem_list {
+    padding: 15px 5px;
+}
+
+.categoryitem_list li {
+    width: 100%;
+    padding: 0;
+    text-align: left;
+}
+
+.categoryitem_list a {
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    line-height: 2;
+    text-decoration: none;
+    color: #111111;
+}
+
+.categoryitem_list a:hover {
+    text-decoration: none;
+    color: #F18700;
+}
+
+.categoryitem_list a::after {
+	content: '';
+    border: solid #F18700;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  left: 5px;
+   transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/*category section*/
+
+/*maggi top page*/
 
 
 /*end of PC*/
 
 /*For Tablet*/
-@media only screen and (min-width: 768px) and (max-width: 980px) {
+@media only screen and (min-width: 768px) and (max-width: 1039px) {
+/*maggi top page*/
 
+/*mv_slider*/
+.current_maggitop .mv_sec{
+    margin-bottom: 6.250vw;
+}
+.mv_slider {
+    width: 46.2%;
+    max-width: 46.15384615384615%;    
+}
+
+.mv_detail {
+    width: 53.8%;
+    padding: 4.808vw 0;
+}
+
+.mv_ttl {
+    width: 100%;
+}
+
+.mv_ttl span {
+    font-size: 4.808vw;
+}
+
+.detail_txt {
+    font-size: 1.538vw;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 7.115vw;
+}
+/*mv_slider*/
+
+/*recommend_section*/
+.sub_ttl{
+    font-size: 3.077vw;
+    display: inline-block;
+    border-bottom: 0.192vw solid #F18700;
+    margin-bottom: 2.885vw;
+}
+
+.recommend_section {
+    margin-bottom: 6.250vw;
+}
+
+.recommend_list {
+    margin: 0 auto;
+}
+
+.recommend_list li {
+    width: 50%;
+    padding: 0 0.769vw;
+    margin-bottom: 1.538vw;
+}
+/*recommend_section*/
+
+
+/*category section*/
+
+.category_list {
+    margin: 0 auto;
+}
+
+.categoryitem_body {
+    min-height: 52.885vw;
+}
+
+.category_list li {
+    width: 50%;
+    padding: 0 0.769vw;
+    margin-bottom: 1.538vw;
+}
+
+.categoryitem_ttl {
+    padding: 1.250vw;
+    font-size: 2.308vw;
+}
+
+.categoryitem_details {
+    padding: 0px 2.885vw;
+}
+
+.categoryitem_txt {
+    border-bottom: 0.192vw dotted #ccc;
+    padding: 1.442vw 0.481vw;
+    line-height: 1.8;
+    font-size: 1.250vw;
+}
+
+.categoryitem_list {
+    padding: 15px 5px;
+}
+
+.categoryitem_list li {
+    width: 100%;
+    padding: 0;
+    text-align: left;
+}
+
+.categoryitem_list a {
+    font-size: 1.346vw;
+    line-height: 2;
+}
+
+.categoryitem_list a::after {
+    content: '';
+    border: solid #F18700;
+    border-width: 0 0.096vw 0.096vw 0;
+    padding: 0.288vw;
+    left: 0.481vw;
+}
+
+/*category section*/
+
+/*maggi top page*/
 }
 /*end of Tablet*/
 
 /*For SP*/
 @media only screen and (max-width: 767px) {
+
+/*maggi top page*/
+
+/*mv_slider*/
+.current_maggitop .mv_sec{
+    margin-bottom: 1.3rem;
+    max-width: 100%;
+    padding: 0 0.35rem;
+    
+}
+.mv_slider {
+    width: 100%;
+    max-width: 100%;
+}
+
+.mv_detail {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.mv_ttl {
+    width: 100%;
+}
+
+.mv_ttl span {
+    font-size: 1rem;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.detail_txt {
+    font-size: .32rem;
+    line-height: 1.6;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0rem;
+}
+/*mv_slider*/
+
+/*recommend_section*/
+.sub_ttl{
+    font-size: .62rem;
+    border-bottom: .04rem solid #F18700;
+    margin-bottom: .6rem;
+}
+
+.recommend_section {
+    margin-bottom: 1.3rem;
+}
+
+.recommend_list {
+    margin: 0 auto;
+}
+
+.recommend_list li {
+    width: 100%;
+    padding: 0;
+    margin-bottom: .32rem;
+}
+/*recommend_section*/
+
+
+/*category section*/
+
+.category_list {
+    margin: 0 auto;
+}
+
+.categoryitem_body {
+    min-height: 10rem;
+}
+
+.category_list li {
+    width: 100%;
+    padding: 0;
+    margin-bottom: .32rem;
+}
+
+.categoryitem_ttl {
+    background-color: #FFEE09;
+    color: #000;
+    padding: 13px;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.categoryitem_ttl.bg_ttl01 {
+    background-color: #155729;
+    color: #fff;
+}
+
+.categoryitem_details {
+    font-weight: 500;
+    padding: 0px 30px;
+}
+
+
+.categoryitem_txt {
+    border-bottom: 2px dotted #ccc;
+    padding: 15px 5px;
+    line-height: 1.8;
+    text-align: left;
+    font-size: 13px;
+    color: #111111;
+}
+
+.categoryitem_list {
+    padding: 15px 5px;
+}
+
+.categoryitem_list li {
+    width: 100%;
+    padding: 0;
+    text-align: left;
+}
+
+.categoryitem_list a {
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    line-height: 2;
+    text-decoration: none;
+    color: #111111;
+}
+
+.categoryitem_list a:hover {
+    text-decoration: none;
+    color: #F18700;
+}
+
+.categoryitem_list a::after {
+    content: '';
+    border: solid #F18700;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  left: 5px;
+   transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/*category section*/
+
+/*maggi top page*/
+
 
 }
 /*end of SP*/

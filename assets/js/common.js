@@ -131,18 +131,14 @@ $(function() {
   });
 });
 
-// page_top
-$(document).ready( function(){
-        // var topBtn = $('.page_top');       
-        // topBtn.hide();
-        //スクロールが100に達したらボタン表示
-        $(window).scroll(function () {
-                if ($(this).scrollTop() > 100) {
-                        topBtn.fadeIn();
-                } else {
-                        topBtn.fadeOut();
-                }
+$(document).ready(function() {
+    $('.page_top').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, {
+            duration: 1500,
+            easing: 'swing'
         });
-});
-// end of page_top
+    });
+  });
 

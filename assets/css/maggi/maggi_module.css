@@ -1,13 +1,21 @@
 @charset "utf-8";
 /*For PC*/
-.maggi h3,
-.maggi p {
+.txt_common,
+.ttl_common,
+.ttl_common_underline,
+.txt_common_small{
 	font-family: "Yu Gothic","游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif !important;
 }
 
-.ttl_mv{
+.ttl_mv,
+.maggi_font{
 	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif !important;
 }
+.maggi_font01,
+.categoryitem_list a{
+   font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif; 
+}
+
 .inner {
     width: 940px;
     margin: 0 auto;
