@@ -146,6 +146,10 @@ br.only_pc{
     font-size: 14px;
     line-height: 1.2;
 }
+.icon_list li{
+    width: 64px;
+    height: auto;
+}
 
 /*end of Product Box Section*/
 
@@ -173,9 +177,6 @@ br.only_pc{
 }
 
 .banner02 .ttl_common{
-    font-size: 30px;
-    background: linear-gradient(transparent 80%, #FFFF10 0%);
-    display: inline-block;
     margin-bottom: 25px;
 }
 
@@ -222,7 +223,7 @@ br.only_pc{
     margin: 0 auto;
 }
 .mv_content {
-    width: 45%;
+    width: 47%;
     padding: 0 1.923vw  0 6.731vw;
 }
 .mv_img {
@@ -305,6 +306,9 @@ br.only_pc{
     font-size: 1.346vw;
     line-height: 1.2;
 }
+.icon_list li{
+    width: 6.154vw;
+}
 
 /*end of Product Box Section*/
 
@@ -329,7 +333,6 @@ br.only_pc{
 }
 
 .banner02 .ttl_common{
-    font-size: 2.885vw;
     margin-bottom: 2.404vw;
 }
 
@@ -374,22 +377,21 @@ br.only_pc{
 /*MV_section*/
 .mv_sec {
     width: 100%;
-    max-width: 95%;
-    margin: 0 auto;
-    padding: 0.6rem 0;
+    max-width: 100%;
+    padding: 0.6rem 0 0 0;
 }
 .mv_content {
     width: 100%;
-    padding: 0;
-    margin-bottom: .4rem;
+    padding: 0 0.4rem;
+    margin-bottom: .6rem;
 }
 .mv_img {
-    max-width: 7.5rem;
+    max-width: 100%;
     width: 100%;
 }
 
 .ttl_mv {
-    font-size: .8rem;
+    font-size: .7rem;
     margin-bottom: .5rem;
 }
 .txt_common {
@@ -456,10 +458,13 @@ br.only_pc{
     height: .8rem;
 }
 .instruction_txt {
-    width: 5.8rem;
+    width: 5.0rem;
     padding: .04rem;
     font-size: .28rem;
     line-height: 1.2;
+}
+.icon_list li{
+    width: 0.64rem;
 }
 
 /*end of Product Box Section*/
@@ -481,9 +486,6 @@ br.only_pc{
 }
 
 .banner02 .ttl_common{
-    font-size: .6rem;
-    background: linear-gradient(transparent 80%, #FFFF10 0%);
-    display: inline-block;
     margin-bottom: .5rem;
 }
 
