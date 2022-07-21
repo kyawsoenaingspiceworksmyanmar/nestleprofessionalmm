@@ -480,9 +480,13 @@ br.only_pc{
 
 /*banner02 */
 .banner02{
-    background: none;
-    padding: .7rem 0rem;
+    background: #F7F7F7;
+    padding: .4rem 0.3rem;
     margin-bottom: .4rem;
+}
+
+.banner02 .product_des{
+    margin-bottom: 0;
 }
 
 .banner02 .ttl_common{
