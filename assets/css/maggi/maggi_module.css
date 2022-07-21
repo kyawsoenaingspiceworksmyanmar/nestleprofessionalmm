@@ -198,6 +198,37 @@ br.only_pc{
     width: 100%;
     max-width: 940px;
 }
+/*common_product_banner*/
+
+/*method sec*/
+.method_box{
+    background: #F7F7F7;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.ttl_sub_use{
+    font-size: 18px;
+    color: #F18700;
+    border-bottom: dotted #959595 1px;
+    margin: 0 0 15px 0;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.use_left {
+    width: 45%;
+    margin-right: 30px;
+}
+.use_left .txt_common_small{
+    margin-bottom: 20px;
+}
+.use_left .txt_small{
+    font-size: 12px;
+}
+.use_right{
+    width: 50%;
+}
+/*method sec*/
     
     
 
@@ -353,6 +384,37 @@ br.only_pc{
     width: 100%;
     max-width: 100%;
 }
+
+/*common_product_banner*/
+
+
+/*method sec*/
+.method_box{
+    border-radius: 0.481vw;
+    padding: 1.923vw;
+}
+
+.ttl_sub_use{
+    font-size: 1.731vw;
+    border-bottom: dotted #959595 0.096vw;
+    margin: 0 0 1.442vw 0;
+    padding-bottom: 1.442vw;
+}
+.use_left {
+    width: 45%;
+    margin-right: 2.885vw;
+}
+.use_left .txt_common_small{
+    margin-bottom: 1.923vw;
+}
+.use_left .txt_small{
+    font-size: 1.154vw;
+}
+.use_right{
+    width: 50%;
+}
+/*method sec*/
+
     
 }
 /*end of Tablet*/
@@ -509,6 +571,35 @@ br.only_pc{
     width: 100%;
     max-width: 7.5rem;
 }
+/*common_product_banner*/    
+
+/*method sec*/
+.method_box{
+    border-radius: .1rem;
+    padding: .4rem;
+}
+
+.ttl_sub_use{
+    font-size: .36rem;
+    border-bottom: dotted #959595 .02rem;
+    margin: 0 0 .3rem 0;
+    padding-bottom: .3rem;
+}
+.use_left {
+    width: 100%;
+    margin-right: 0;
+}
+.use_left .txt_common_small{
+    margin-bottom: .4rem;
+}
+.use_left .txt_small{
+    font-size: .24rem;
+}
+.use_right{
+    width: 100%;
+}
+/*method sec*/
+    
     
     
 

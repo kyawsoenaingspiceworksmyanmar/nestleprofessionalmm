@@ -10,6 +10,10 @@ footer .inner {
     margin: 0 auto;
     padding: 0 20px;
 }
+footer a{
+    font-family: muliregular,"Helvetica","Arial", "メイリオ", "Meiryo", sans-serif !important;
+}
+
 
 .title_sec {
     width: 24%;
