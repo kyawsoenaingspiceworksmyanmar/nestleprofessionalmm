@@ -175,6 +175,9 @@
 .product_box_section .cooking_item{
 	max-width: 286px;
 }
+.product_box_section .product_box_section .instruction_txt{
+    width: 330px;
+}
 .allergen{
 	width: 100%;
 	background: #F7F7F7;
@@ -320,6 +323,10 @@
 	font-size: 30px;
 	background: linear-gradient(transparent 80%, #FFFF10 0%);
 	display: inline-block;
+}
+.ttl_food_allergen sup{
+    font-size: 25px;
+    vertical-align: top;
 }
 .ttl_allergy-specific .ttl_food_allergen{
     margin-bottom: 0;
@@ -494,6 +501,9 @@
     .product_box_section .cooking_item{
         max-width: 27.500vw;
     }
+    .product_box_section .product_box_section .instruction_txt{
+        width: 26.923vw;
+    }
     .allergen{
         border: 0.096vw solid #F18700;
         border-radius: 0.096vw;
@@ -579,6 +589,9 @@
     }
     .ttl_food_allergen{
         font-size: 2.885vw;
+    }
+    .ttl_food_allergen sup{
+        font-size: 2.404vw;
     }
     .txt_raw_material{
         font-size: 2.115vw;
@@ -882,7 +895,6 @@
     }
     .ttl_food_allergen sup{
         font-size: 0.32rem;
-        vertical-align: top;
     }
     .txt_raw_material{
         font-size: 0.42rem;
