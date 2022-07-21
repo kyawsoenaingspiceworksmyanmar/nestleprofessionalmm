@@ -29,6 +29,14 @@ header, hgroup, menu, nav, section, time, mark, audio, video {
     color: #111111;
     line-height: 1.5;
 }
+.ttl_small{
+    font-size: 18px;
+}
+
+.txt_common_small.note_small {
+    font-size: 10px;
+}
+
 img{
     width: 100%;
     height: auto;
@@ -74,6 +82,10 @@ br.only_pc{
 .mb_40{
     margin-bottom: 40px;
 }
+.mb_20{
+    margin-bottom: 20px;
+}
+
 
 /*mv_section*/
 
@@ -250,6 +262,13 @@ br.only_pc{
     font-size: 1.346vw;
     line-height: 1.5;
 }
+.ttl_small{
+    font-size: 1.731vw;
+}
+txt_common_small.note_small {
+    font-size: 0.962vw;
+}
+
 
 /*MV_section*/
 .mv_sec {
@@ -279,6 +298,9 @@ br.only_pc{
 }
 .mb_40{
     margin-bottom: 3.846vw;
+}
+.mb_20{
+    margin-bottom: 1.923vw;
 }
 
 /*mv_section*/
@@ -441,6 +463,15 @@ br.only_pc{
     font-size:.28rem;
 }
 
+.ttl_small{
+    font-size: .36rem;
+}
+
+.txt_common_small.note_small {
+    font-size: .2rem;
+}
+
+
 /*MV_section*/
 .mv_sec {
     width: 100%;
@@ -469,6 +500,10 @@ br.only_pc{
 }
 .mb_40{
     margin-bottom: .8rem;
+}
+
+.mb_20{
+    margin-bottom: .4rem;
 }
 
 /*mv_section*/

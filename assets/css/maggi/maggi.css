@@ -371,6 +371,14 @@
 }
 /*end of bouillon-consomme*/
 
+
+/*dessert*/
+.item_box_des.featureimg{
+    width: 170px;
+}
+/*end of dessert*/
+
+
 /*end of PC*/
 
 /*For Tablet*/
@@ -617,6 +625,12 @@
         width: 19.178vw;
     }
     /*end of bouillon-consomme*/
+    
+    /*dessert*/
+    .item_box_des.featureimg{
+        width: 16.346vw;
+    }
+    /*end of dessert*/
 }
 /*end of Tablet*/
 
@@ -926,5 +940,11 @@
         width: 3.6rem;
     }
     /*end of bouillon-consomme*/
+    
+    /*dessert*/
+    .item_box_des.featureimg{
+        width: 3.4rem;
+    }
+    /*end of dessert*/
 }
 /*end of SP*/
