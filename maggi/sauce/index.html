@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" type="text/css" href="../../assets/css/import.css" media="all" />
     <link rel="stylesheet" type="text/css" href="../../assets/css/maggi/maggi.css" media="all" />
+
     <!-- Social -->
     <link rel="shortcut icon" href="assets/images/favicon.ico" />
     <link rel="icon" href="/assets/images/favicon.ico" />
@@ -34,32 +35,109 @@
     <script>
 		if (window.innerWidth < 768) {
 		    document.getElementsByTagName("html")[0].style.fontSize = window.innerWidth / 7.5 + 'px';
-		} else if (window.innerWidt >= 767 && window.innerWidt <= 980) {
-		    document.getElementsByTagName("html")[0].style.fontSize = window.innerWidth / 9.8 + 'px';
 		}
     </script>
 
-    <title>Nestle Professional</title>
+    <title>Nestlé Professional | ネスレプロフェショナル Web</title>
 </head>
-<body class="current_maggi maggi">
-    <div class="wrapper open">
-	<!-- include header.html -->
-		<?php require_once('../../include_files/header.html'); ?>
-	<!-- /include header.html -->
+<body class="sauce maggi">
+    <div class="wrapper">
 
-	<div class="content">
-        <h1>bouillon-consomme</h1>
-		<!-- content here -->
-	</div>
-    <footer>
-        <!-- include footer.html -->
-        <?php require_once('../../include_files/info.html'); ?>
-        <?php require_once('../../include_files/footer.html'); ?>
-    <!-- /include footer.html -->
-    </footer>
+    	<!-- include header.html -->
+    	<?php require_once('../../include_files/header.html'); ?>
+    	<!-- /include header.html -->
+
+    	<div class="content">
+            <!-- MV_section -->
+            <div class="mv_sec flex mb_40">
+                <div class="mv_content">
+                    <h2 class="ttl_mv">ソース・その他</h2>
+                    <p class="txt_common">プロの方にもご愛用いただいている、本格的なソースやマッシュポテトが簡単にお作りいただけます。</p>
+                </div>
+                <div class="mv_img">
+                    <img alt="ソース・その他" src="/assets/images/maggi/sauce/img_mv.png">
+                </div>
+            </div>
+            <!-- end of MV_section -->
+
+            <div class="inner">
+                <!-- anchor_card -->
+                <ul class="card_list flex mb_60">
+                    <li class="card_item">
+                        <a href="#sauce_card">
+                            <img src="/assets/images/maggi/sauce/img_sauce_card.png" alt="マギー ホワイトソース・デミグラスソース カード">
+                        </a>
+                    </li>
+                    <li class="card_item">
+                        <a href="#tomatocoulis">
+                            <img src="/assets/images/maggi/sauce/img_tomatocoulis_card.png" alt="マギー トマトクーリ カード">
+                        </a>
+                    </li>
+                    <li class="card_item">
+                        <a href="#potato">
+                            <img src="/assets/images/maggi/sauce/img_potato_card.png" alt="マギー クリーミー マッシュポテトミックス カード">
+                        </a>
+                    </li>
+                    <li class="card_item">
+                        <a href="#aspic">
+                            <img src="/assets/images/maggi/sauce/img_aspic_card.png" alt="マギー アスピック カード">
+                        </a>
+                    </li>
+                </ul>
+                <!-- anchor_card -->
+
+                <section class="sauce_card_sec mb_60" id="sauce_card">
+                    <!-- Common Product Banner -->
+                    <div class="common_product_banner mb_40">
+                        <img src="/assets/images/maggi/sauce/img_sauce_product.png" data-src-sp="/assets/images/maggi/sauce/img_sauce_product_sp.png" alt="マギー ホワイトソース・デミグラスソース">
+                    </div>
+                    <!-- end of Common Product Banner -->
+
+                    <!-- Product Box Section -->
+                    <div class="product_box_section flex mb_40">
+                        <div class="product_box product_img">
+                            <img src="/assets/images/maggi/sauce/img_whitesauce_item.png" alt="マギー ホワイトソース 800g">
+                        </div>
+                        <div class="product_box product_des">
+                            <h3 class="ttl_common bold">マギー ホワイトソース 800g</h3>
+                            <div class="item_box_des">
+                                <div class="instruction_box flex">
+                                    <div class="instruction bold">使用方法</div>
+                                    <p class="instruction_txt bold">製品140~150gを1Lの水または牛乳で溶かし、かき混ぜながら火にかけ、沸騰させ、粘度がつくまで加熱する。</p>
+                                </div>
+                                <ul class="item_des">
+                                    <li class="txt_common_small">※1本で６ℓが出来上がります</li>
+                                    <li class="txt_common_small">簡単オペレーションで必要な量だけ具材と合わせて、<br>無駄なく様々なソースへのアレンジが可能です。</li>
+                                </ul>
+                            </div>
+                            <ul class="icon_list flex">
+                                <li>
+                                    <img alt="アイコン 粉末タイプ" src="/assets/images/maggi/icon_power.png">
+                                </li>
+                                <li>
+                                    <img alt="アイコン 粉末タイプ" src="/assets/images/maggi/icon_sauce_power.png">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Product Box Section -->
+                </section>
+            </div>
+    	</div>
+
+        <!-- include maggi-social.html -->
+        <?php require_once('../../include_files/maggi-social.html'); ?>
+        <!-- include maggi-social.html -->
+    
+        <footer>
+            <?php require_once('../../include_files/info.html'); ?>
+            <?php require_once('../../include_files/footer.html'); ?>
+        </footer>
 	
     </div>
- <script type="text/javascript" src="../../assets/js/common.js"></script>
+
+    <script type="text/javascript" src="../../assets/js/common.js"></script>
     <script type="text/javascript" src="../../assets/js/script.js"></script>
+
 </body>
 </html>
