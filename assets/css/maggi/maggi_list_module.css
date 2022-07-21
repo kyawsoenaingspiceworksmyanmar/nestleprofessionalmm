@@ -1,9 +1,6 @@
 /*For PC*/
 
 /*card_section*/
-.card_list{
-	margin-bottom: 60px;
-}
 .card_item{
 	width: 23%;
 	max-width: 214px;
@@ -193,9 +190,6 @@ figcaption{
 /*For Tablet*/
 @media only screen and (min-width: 768px) and (max-width: 1039px) {
     /*card_section*/
-    .card_list{
-        margin-bottom: 5.769vw;
-    }
     .card_item{
         width: 22%;
         max-width: 20.577vw;
@@ -299,9 +293,6 @@ figcaption{
 /*For SP*/
 @media only screen and (max-width: 767px) {
     /*card_section*/
-    .card_list{
-        margin-bottom: 0.8rem;
-    }
     .card_item{
         width: 50%;
         max-width: 3.2rem;
