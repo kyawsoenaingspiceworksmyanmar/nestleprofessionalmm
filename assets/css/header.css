@@ -64,6 +64,10 @@ header a{
     border-bottom: 1px solid #ac1637;
     color: #ac1637;
 }
+.sub_menu a.active{
+    border-bottom: none;
+    color: #5c5c5c;
+}
 
 .p_menu:hover {
     background: #ff8000;
