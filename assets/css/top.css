@@ -1,0 +1,66 @@
+/*For PC*/
+/* mv_section*/
+.slick-prev,.slick-next {
+	z-index: 1;
+}
+.slick-prev{
+	left: 0;
+} 
+.slick-next {
+	right: 0;
+}
+.slick-prev:before{
+	display: block;
+    height: 70px;
+    width: 60px;
+    position: absolute;
+    top: -30px;
+    cursor: pointer;
+    text-indent: -9999px;
+    background: transparent url(/assets/images/top/v2_layout_design.png) no-repeat 0 -66px;
+    left: 0;
+    
+}
+.slick-next:before{
+	display: block;
+    height: 70px;
+    width: 60px;
+    position: absolute;
+    top: -30px;
+    cursor: pointer;
+    text-indent: -9999px;
+    background: transparent url(/assets/images/top/v2_layout_design.png) no-repeat -61px -66px;
+    right: 0;  
+}
+/* mv_section*/
+
+/*For PC*/
+
+/*For Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1039px) {
+.slick-prev{
+	left: 0;
+} 
+.slick-next {
+	right: 0;
+}
+.slick-prev:before{
+	display: block;
+    height: 6.731vw;
+    width: 5.769vw;
+    top: -2.885vw;
+    background: transparent url(/assets/images/top/v2_layout_design.png) no-repeat -0.9vw -9.746vw;
+    left: 0;
+    
+}
+.slick-next:before{
+	display: block;
+    height: 6.731vw;
+    width: 5.769vw;
+    top: -2.885vw;
+    background: transparent url(/assets/images/top/v2_layout_design.png) no-repeat -9vw -9.746vw;
+    right: 0;  
+}
+/* mv_section*/
+}
+/*For Tablet*/

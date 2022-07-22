@@ -13,7 +13,7 @@
     <meta name="description" content="Grow your operation with our culinary and beverage brands, products, systems services and expertise." lang="ja" xml:lang="ja" />
 
     <link rel="stylesheet" type="text/css" href="/assets/css/import.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="/css/usage/usage.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/usage/usage.css" media="all" />
 
     <!-- Social -->
     <link rel="shortcut icon" href="/assets/images/favicon.ico" />
@@ -42,16 +42,35 @@
 
     <title>Nestlé Professional | ネスレプロフェショナル Web</title>
 </head>
-<body class="current_service">
+<body class="restaurant usage">
     <div class="wrapper">
     	<!-- include header.html -->
     		<?php require_once('../../include_files/header.html'); ?>
     	<!-- /include header.html -->
 
     	<div class="content">
-            <h1>Restaurtant Page</h1>
+            <!-- mv_section -->
+            <div class="mv_sec mb_20">
+                <img src="/assets/images/usage/img_restaurant_mv.png" data-src-sp="/assets/images/usage/img_restaurant_mv_sp.png" alt="レストラン・カフェ・ベーカリー">
+            </div>
+            <!-- mv_section -->
+            <div class="inner">
+                <a  href="/beverages/roastelier/" class="common_banner mb_20">
+                    <img src="/assets/images/usage/img_roastlier_banner.png" alt="Roastelier">
+                </a>
+                <!-- include usage_banner.html -->
+                    <?php require_once('../../include_files/usage_banner.html'); ?>
+                <!-- /include usage_banner.html -->
+                 <!-- include usage_contactus.html -->
+                    <?php require_once('../../include_files/usage_contactus.html'); ?>
+                <!-- /include usage_contactus.html -->
+            </div>
+            
+            
     	</div>
-
+        <!-- include info.html -->
+            <?php require_once('../../include_files/info.html'); ?>
+        <!-- /include info.html -->
     	<!-- include footer.html -->
     		<?php require_once('../../include_files/footer.html'); ?>
     	<!-- /include footer.html -->

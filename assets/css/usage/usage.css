@@ -1,18 +1,173 @@
 /*usage module css*/
 @charset "utf-8";
 @import "usage_list_module.css";
+
 /*end usage module*/
+.usage .content {
+    background-color: #f3f3f3;
+    padding-bottom: 30px;
+}
+
+.inner {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.mb_30 {
+    margin-bottom: 30px;
+}
+
+.mb_50 {
+    margin-bottom: 50px;
+}
+
+.mv_sec {
+    width: 100%;
+}
+
+/*banner_group*/
+.common_banner {
+    display: inline-block;
+    width: 100%;
+}
+
+.banner_list {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_list li:nth-child(odd) {
+    margin-right: 2%;
+}
+
+.banner_list li {
+    width: 49%;
+    margin-bottom: 20px;
+}
+
+/*banner_group*/
+
+.contactus_sec {
+    text-align: center;
+}
+
+.contact {
+    display: inline-block;
+    width: 248px;
+}
 
 
-.inner{
-	width: 960px;
-	margin: 0 auto;
-}
-.mb_20{
-	margin-bottom: 20px;
-}
-.mb_50{
-	margin-bottom: 50px;
-}
 
 /*For PC*/
+
+/*For Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1039px) {
+    .usage .content {
+        padding-bottom: 2.885vw;
+    }
+
+    .inner {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .mb_20 {
+        margin-bottom: 1.923vw;
+    }
+
+    .mb_30 {
+        margin-bottom: 2.885vw;
+    }
+
+    .mb_50 {
+        margin-bottom: 4.808vw;
+    }
+
+    .mv_sec {
+        width: 100%;
+    }
+
+    /*banner_group*/
+
+    .common_banner {
+        width: 100%;
+    }
+
+    .banner_list {
+        width: 100%;
+    }
+
+    .banner_list li:nth-child(odd) {
+        margin-right: 2%;
+    }
+
+    .banner_list li {
+        width: 49%;
+        margin-bottom: 1.923vw;
+    }
+
+    /*banner_group*/
+
+    .contact {
+        width: 23.846vw;
+    }
+
+}
+
+/*For SP*/
+@media only screen and (max-width: 767px) {
+    .usage .content {
+        padding-bottom: .6rem;
+    }
+
+    .inner {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 0.15rem;
+    }
+
+    .mb_20 {
+        margin-bottom: .4rem;
+    }
+
+    .mb_30 {
+        margin-bottom: .9rem;
+    }
+
+    .mb_50 {
+        margin-bottom: 1rem;
+    }
+
+    .mv_sec {
+        width: 100%;
+    }
+
+    /*banner_group*/
+    .common_banner {
+        width: 100%;
+    }
+
+    .banner_list {
+        width: 100%;
+    }
+
+    .banner_list li:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    .banner_list li {
+        width: 100%;
+        margin-bottom: .4rem;
+    }
+
+    /*banner_group*/
+
+    .contact {
+        width: 3.3rem;
+    }
+}
