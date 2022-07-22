@@ -10,10 +10,10 @@ footer .inner {
     margin: 0 auto;
     padding: 0 20px;
 }
-footer a{
-    font-family: muliregular,"Helvetica","Arial", "メイリオ", "Meiryo", sans-serif !important;
-}
 
+footer a {
+    font-family: muliregular, "Helvetica", "Arial", "メイリオ", "Meiryo", sans-serif !important;
+}
 
 .title_sec {
     width: 24%;
@@ -74,10 +74,11 @@ footer a{
 .footer_sec {
     background-color: #e0e0e0;
     padding: 20px 0 20px;
-    
+
 }
-.footer_sec .inner{
-	position: relative;
+
+.footer_sec .inner {
+    position: relative;
 }
 
 .footer_sec .logo_sec {
@@ -112,9 +113,10 @@ footer a{
     color: #818181;
     font-size: 13px;
 }
-.page_top{
-	dispaly: block;
-	position: absolute;
+
+.page_top {
+    dispaly: block;
+    position: absolute;
     right: 20px;
     color: #76747f;
     font-size: 13px;
@@ -126,94 +128,91 @@ footer a{
 /*For Tablet*/
 @media only screen and (min-width: 768px) and (max-width: 1039px) {
     .info_sec {
-    padding-top: 1.563vw;
-    padding-bottom: 0.781vw;
+        padding-top: 1.563vw;
+        padding-bottom: 0.781vw;
+    }
+
+    footer .inner {
+        width: 100%;
+        max-width: 78.125%;
+        margin: 0 auto;
+    }
+
+    .title_sec {
+        width: 24%;
+        line-height: 1.172vw;
+        padding: 2.344vw 0;
+    }
+
+    .footer_title {
+        line-height: 1;
+        margin-bottom: 1.172vw;
+        font-size: 1.953vw;
+    }
+
+    .common_txt,
+    .contact_txt {
+        font-size: 1.016vw;
+        line-height: 1.3;
+    }
+
+    .info_sec .common_txt {
+        margin-bottom: 0.781vw;
+        max-width: 80%;
+    }
+
+    .contact_sec {
+        width: 60%;
+        padding-top: 2.344vw;
+        margin-left: 2.6%;
+    }
+
+    .contact_item {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .contact_icon {
+        width: 2.344vw;
+    }
+
+    .contact_ttl {
+        font-size: 1.016vw;
+        padding-bottom: 0.156vw;
+        margin-bottom: 0px;
+    }
+
+    .footer_sec {
+        padding: 0.156vw 0 0.156vw;
+    }
+
+
+    .footer_sec .logo_sec {
+        width: 12.500vw;
+        margin-right: 6.500vw;
+    }
+
+    .footer_sec a {
+        font-size: 1.016vw;
+        line-height: 1.719vw;
+    }
+
+    .f_menu {
+        width: 17.969vw;
+        padding-top: 1.328vw;
+    }
+
+    .footer_sec .txt_nestle {
+        font-size: 1.016vw;
+    }
+
+    .page_top {
+        right: 1.563vw;
+        font-size: 1.016vw;
+        background: url(/assets//images/back_to_top.png) top right no-repeat;
+        padding-right: 1.563vw;
+    }
 }
-
-footer .inner {
-    width: 100%;
-    max-width: 78.125%;
-    margin: 0 auto;
-}
-
-.title_sec {
-    width: 24%;
-    line-height: 1.172vw;
-    padding: 2.344vw 0;
-}
-
-.footer_title {
-    line-height: 1;
-    margin-bottom: 1.172vw;
-    font-size: 1.953vw;
-}
-
-.common_txt,
-.contact_txt {
-    font-size: 1.016vw;
-    line-height: 1.3;
-}
-
-.info_sec .common_txt {
-    margin-bottom: 0.781vw;
-    max-width: 80%;
-}
-
-.contact_sec {
-    width: 60%;
-    padding-top: 2.344vw;
-    margin-left: 2.6%;
-}
-
-.contact_item {
-    width: 48%;
-    margin-right: 2%;
-}
-
-.contact_icon {
-    width: 2.344vw;
-}
-
-.contact_ttl {
-    font-size: 1.016vw;
-    padding-bottom: 0.156vw;
-    margin-bottom: 0px;
-}
-
-.footer_sec {
-    padding: 0.156vw 0 0.156vw;
-}
-
-
-.footer_sec .logo_sec {
-    width: 12.500vw;
-    margin-right: 6.500vw;
-}
-
-.footer_sec a {
-    font-size: 1.016vw;
-    line-height: 1.719vw;
-}
-
-.f_menu {
-    width: 17.969vw;
-    padding-top: 1.328vw;
-}
-
-.footer_sec .txt_nestle {
-    font-size: 1.016vw;
-}
-.page_top{
-    right: 1.563vw;
-    font-size: 1.016vw;
-    background: url(/assets//images/back_to_top.png) top right no-repeat;
-    padding-right: 1.563vw;
-}
-}
-
-
-
-
 
 
 /*For SP*/
@@ -251,6 +250,7 @@ footer .inner {
         margin-bottom: .2rem;
         max-width: 100%;
     }
+
     .p_menu:hover {
         background: none;
     }
@@ -287,7 +287,8 @@ footer .inner {
     }
 
     .footer_sec .logo_sec {
-        width: 2.85rem;;
+        width: 2.85rem;
+        ;
         margin: 0 auto;
         text-align: center;
     }
@@ -310,10 +311,11 @@ footer .inner {
     .footer_sec .txt_nestle {
         font-size: .26rem;
     }
-    .page_top{
-    	top: 0;
-    	right: .4rem;
-	    font-size: .26rem;
-	    padding-right: .4rem;
-	}
+
+    .page_top {
+        top: 0;
+        right: .4rem;
+        font-size: .26rem;
+        padding-right: .4rem;
+    }
 }

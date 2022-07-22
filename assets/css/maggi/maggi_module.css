@@ -37,10 +37,6 @@ header, hgroup, menu, nav, section, time, mark, audio, video {
     font-size: 10px;
 }
 
-img{
-    width: 100%;
-    height: auto;
-}
 br.only_pc{
     display: block;
 }

@@ -1,6 +1,10 @@
 @charset "utf-8";
 /*For PC*/
 
+img{
+    width: 100%;
+    height: auto;
+}
 
 /*end of PC*/
 

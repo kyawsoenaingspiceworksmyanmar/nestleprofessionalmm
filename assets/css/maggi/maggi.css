@@ -9,13 +9,14 @@
 /*maggi top page*/
 
 /*mv_slider*/
-.current_maggitop .mv_sec{
+.current_maggitop .mv_sec {
     margin-bottom: 65px;
 }
+
 .mv_slider {
     width: 46.2%;
     max-width: 480px;
-    
+
 }
 
 .mv_detail {
@@ -47,10 +48,11 @@
     margin: 0 auto;
     padding: 0px 74px;
 }
+
 /*mv_slider*/
 
 /*recommend_section*/
-.sub_ttl{
+.sub_ttl {
     font-size: 32px;
     font-weight: normal;
     color: #111111;
@@ -73,13 +75,15 @@
     padding: 0 8px;
     margin-bottom: 16px;
 }
+
 /*recommend_section*/
 
 
 /*category section*/
-.category_section{
-	text-align: center;
+.category_section {
+    text-align: center;
 }
+
 .category_list {
     margin: 0 auto;
 }
@@ -150,14 +154,14 @@
 }
 
 .categoryitem_list a::after {
-	content: '';
+    content: '';
     border: solid #F18700;
-  border-width: 0 1px 1px 0;
-  display: inline-block;
-  padding: 3px;
-  left: 5px;
-   transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    left: 5px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
 }
 
 /*category section*/
@@ -165,217 +169,266 @@
 /*maggi top page*/
 
 /*bouillon-consomme*/
-.bouillon_menu{
-	margin-top: 20px;
+.bouillon_menu {
+    margin-top: 20px;
 }
-.bouillon_menu07, 
-.bouillon_menu28{
-	width: 209px;
+
+.bouillon_menu07,
+.bouillon_menu28 {
+    width: 209px;
 }
-.product_box_section .cooking_item{
-	max-width: 286px;
+
+.product_box_section .cooking_item {
+    max-width: 286px;
 }
-.product_box_section .product_box_section .instruction_txt{
+
+.product_box_section .product_box_section .instruction_txt {
     width: 330px;
 }
-.allergen{
-	width: 100%;
-	background: #F7F7F7;
-	border: 1px solid #F18700;
-	border-radius: 5px;
-	margin: 0 0 40px 0;
+
+.allergen {
+    width: 100%;
+    background: #F7F7F7;
+    border: 1px solid #F18700;
+    border-radius: 5px;
+    margin: 0 0 40px 0;
 }
-.allergen .btn_click_detail{
-	display: block;
-	background: transparent;
-	border: 0;
-	border-radius: 0;
-	padding: 12px 30px;
-	margin: 0;
+
+.allergen .btn_click_detail {
+    display: block;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 12px 30px;
+    margin: 0;
 }
-.allergen .btn_click_detail::after{
-	right: auto;
-	margin-left: 20px;
+
+.allergen .btn_click_detail::after {
+    right: auto;
+    margin-left: 20px;
 }
-.allergen_des{
-	display: none;
+
+.allergen_des {
+    display: none;
 }
-.allergen.recipe_material_sec.show_detail .allergen_des{
-	display: block;
+
+.allergen.recipe_material_sec.show_detail .allergen_des {
+    display: block;
 }
-.allergen.recipe_material_sec.show_detail .btn_click_detail::after{
-	top: 17px;
+
+.allergen.recipe_material_sec.show_detail .btn_click_detail::after {
+    top: 17px;
 }
-.allergen_block{
-	background: repeating-linear-gradient(90deg, #f9f7eb 0px 15px, #fcfbf5 15px 25px);
-	padding: 50px 20px;
+
+.allergen_block {
+    background: repeating-linear-gradient(90deg, #f9f7eb 0px 15px, #fcfbf5 15px 25px);
+    padding: 50px 20px;
 }
-.item_bouillon{
-	-webkit-justify-content: space-between;
-	        justify-content: space-between;
-	-webkit-align-items: center;
-	        align-items: center;
+
+.item_bouillon {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
 }
-.item_material{
-	width: 65%;
+
+.item_material {
+    width: 65%;
 }
+
 .ttl_material,
-.ttl_bouillon{
-	color: #000000;
-	margin-bottom: 20px;
+.ttl_bouillon {
+    color: #000000;
+    margin-bottom: 20px;
 }
-.ttl_material{
-	font-size: 32px;
+
+.ttl_material {
+    font-size: 32px;
 }
-.ttl_bouillon{
-	font-size: 36px;
+
+.ttl_bouillon {
+    font-size: 36px;
 }
-.ttl_bouillon span{
-	font-size: 48px;
-	color: #FF0000;
+
+.ttl_bouillon span {
+    font-size: 48px;
+    color: #FF0000;
 }
-.txt_material{
-	border-radius: 20px;
-	background: #FFF440;
-	display: inline-block;
-	padding: 10px 17px;
+
+.txt_material {
+    border-radius: 20px;
+    background: #FFF440;
+    display: inline-block;
+    padding: 10px 17px;
 }
-.txt_material span{
-	color: #FF0000;
+
+.txt_material span {
+    color: #FF0000;
 }
-.material_img{
-	width: 25%;
-	max-width: 222px;
+
+.material_img {
+    width: 25%;
+    max-width: 222px;
 }
-.doctor_info{
-	background: #FFFFFF;
-	padding: 45px 30px 10px 30px;
+
+.doctor_info {
+    background: #FFFFFF;
+    padding: 45px 30px 10px 30px;
 }
-.txt_recommend{
-	font-size: 20px;
-	color: #fff;
-	padding: 10px 15px;
-	background: #8C6F59;
-	margin-bottom: 12px;
+
+.txt_recommend {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 15px;
+    background: #8C6F59;
+    margin-bottom: 12px;
 }
-.info_column{
-	width: 50%;
+
+.info_column {
+    width: 50%;
 }
-.info_list{
-	-webkit-justify-content: space-between;
-	        justify-content: space-between;
-	margin-bottom: 20px;
+
+.info_list {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
-.info_img{
-	width: 34%;
-	max-width: 140px;
+
+.info_img {
+    width: 34%;
+    max-width: 140px;
 }
-.info_content{
-	width: 60%;
+
+.info_content {
+    width: 60%;
 }
-.txt_info_name{
-	font-size: 18px;
-	color: #101010;
-	line-height: 1.5;
-	margin-bottom: 5px;
+
+.txt_info_name {
+    font-size: 18px;
+    color: #101010;
+    line-height: 1.5;
+    margin-bottom: 5px;
 }
-.info_content .txt_common_small{
-	font-size: 12px;
+
+.info_content .txt_common_small {
+    font-size: 12px;
 }
-.info_history{
-	margin-bottom: 20px;
+
+.info_history {
+    margin-bottom: 20px;
 }
-.info_history .txt_common_small{
-	font-size: 12px;
-	margin-bottom: 10px;
+
+.info_history .txt_common_small {
+    font-size: 12px;
+    margin-bottom: 10px;
 }
-.info_history .txt_common_small:last-child{
-	margin-bottom: 0;
+
+.info_history .txt_common_small:last-child {
+    margin-bottom: 0;
 }
-.info_url{
-	color: #245CEB;
-	text-decoration: underline;
-	position: relative;
-	display: inline-block;
+
+.info_url {
+    color: #245CEB;
+    text-decoration: underline;
+    position: relative;
+    display: inline-block;
 }
-.info_url::after{
-	content: '';
-	position: absolute;
-	background: url(/assets/images/maggi/bouillon/icon_href.png) no-repeat right;
-	width: 15px;
-	height: 15px;
-	top: 3px;
+
+.info_url::after {
+    content: '';
+    position: absolute;
+    background: url(/assets/images/maggi/bouillon/icon_href.png) no-repeat right;
+    width: 15px;
+    height: 15px;
+    top: 3px;
 }
-.column02 .txt_common_small{
-	margin-bottom: 30px;
+
+.column02 .txt_common_small {
+    margin-bottom: 30px;
 }
-.column02 .txt_common_small span{
-	color: #FF0000;
+
+.column02 .txt_common_small span {
+    color: #FF0000;
 }
-.raw_material_block{
-	padding: 60px 80px 50px 80px;
-	text-align: center;
+
+.raw_material_block {
+    padding: 60px 80px 50px 80px;
+    text-align: center;
 }
-.ttl_allergy-specific{
-	margin-bottom: 25px;
+
+.ttl_allergy-specific {
+    margin-bottom: 25px;
 }
-.ttl_food_allergen{
-	font-size: 30px;
-	background: linear-gradient(transparent 80%, #FFFF10 0%);
-	display: inline-block;
+
+.ttl_food_allergen {
+    font-size: 30px;
+    background: linear-gradient(transparent 80%, #FFFF10 0%);
+    display: inline-block;
 }
-.ttl_food_allergen sup{
+
+.ttl_food_allergen sup {
     font-size: 25px;
     vertical-align: top;
 }
-.ttl_allergy-specific .ttl_food_allergen{
+
+.ttl_allergy-specific .ttl_food_allergen {
     margin-bottom: 0;
 }
-.txt_raw_material{
-	font-size: 24px;
-	color: #000000;
-	line-height: 1.3;
-	margin-bottom: 25px;
+
+.txt_raw_material {
+    font-size: 24px;
+    color: #000000;
+    line-height: 1.3;
+    margin-bottom: 25px;
 }
-.txt_second_material{
-	margin-bottom: 30px;
+
+.txt_second_material {
+    margin-bottom: 30px;
 }
-.txt_recommend.txt_table_title{
-	background: #7D7D7D;
-	margin-bottom: 0;
+
+.txt_recommend.txt_table_title {
+    background: #7D7D7D;
+    margin-bottom: 0;
 }
-.allergen_list_table{
-	background: #fff;
-	border-left: 1px solid #707070;
-	border-right: 1px solid #707070;
+
+.allergen_list_table {
+    background: #fff;
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
 }
-.allergen_td{
-	width: 122.6px;
-	padding: 12px 0;
-	border-right: 1px solid #707070;
-	border-bottom: 1px solid #707070;
+
+.allergen_td {
+    width: 122.6px;
+    padding: 12px 0;
+    border-right: 1px solid #707070;
+    border-bottom: 1px solid #707070;
 }
-.allergen_td .txt_common{
-	line-height: 1;
+
+.allergen_td .txt_common {
+    line-height: 1;
 }
-.allergen_td:nth-child(6n+6), 
-.allergen_td:last-child{
-	border-right: 0;
+
+.allergen_td:nth-child(6n+6),
+.allergen_td:last-child {
+    border-right: 0;
 }
-.txt_none{
-	background: url(/assets/images/maggi/bouillon/img_path_line.png) no-repeat top center;
-	-webkit-background-size: 100% 40px;
-	     -o-background-size: 100% 40px;
-	        background-size: 100% 40px;
-	width: 245.2px;
+
+.txt_none {
+    background: url(/assets/images/maggi/bouillon/img_path_line.png) no-repeat top center;
+    -webkit-background-size: 100% 40px;
+    -o-background-size: 100% 40px;
+    background-size: 100% 40px;
+    width: 245.2px;
 }
+
 /*end of bouillon-consomme*/
 
 
 /*dessert*/
-.item_box_des.featureimg{
+.item_box_des.featureimg {
     width: 170px;
 }
+
 /*end of dessert*/
 
 
@@ -383,568 +436,655 @@
 
 /*For Tablet*/
 @media only screen and (min-width: 768px) and (max-width: 1039px) {
-/*maggi top page*/
+    /*maggi top page*/
 
-/*mv_slider*/
-.current_maggitop .mv_sec{
-    margin-bottom: 6.250vw;
-}
-.mv_slider {
-    width: 46.2%;
-    max-width: 46.15384615384615%;    
-}
+    /*mv_slider*/
+    .current_maggitop .mv_sec {
+        margin-bottom: 6.250vw;
+    }
 
-.mv_detail {
-    width: 53.8%;
-    padding: 4.808vw 0;
-}
+    .mv_slider {
+        width: 46.2%;
+        max-width: 46.15384615384615%;
+    }
 
-.mv_ttl {
-    width: 100%;
-}
+    .mv_detail {
+        width: 53.8%;
+        padding: 4.808vw 0;
+    }
 
-.mv_ttl span {
-    font-size: 4.808vw;
-}
+    .mv_ttl {
+        width: 100%;
+    }
 
-.detail_txt {
-    font-size: 1.538vw;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 7.115vw;
-}
-/*mv_slider*/
+    .mv_ttl span {
+        font-size: 4.808vw;
+    }
 
-/*recommend_section*/
-.sub_ttl{
-    font-size: 3.077vw;
-    display: inline-block;
-    border-bottom: 0.192vw solid #F18700;
-    margin-bottom: 2.885vw;
-}
+    .detail_txt {
+        font-size: 1.538vw;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 7.115vw;
+    }
 
-.recommend_section {
-    margin-bottom: 6.250vw;
-}
+    /*mv_slider*/
 
-.recommend_list {
-    margin: 0 auto;
-}
+    /*recommend_section*/
+    .sub_ttl {
+        font-size: 3.077vw;
+        display: inline-block;
+        border-bottom: 0.192vw solid #F18700;
+        margin-bottom: 2.885vw;
+    }
 
-.recommend_list li {
-    width: 50%;
-    padding: 0 0.769vw;
-    margin-bottom: 1.538vw;
-}
-/*recommend_section*/
+    .recommend_section {
+        margin-bottom: 6.250vw;
+    }
+
+    .recommend_list {
+        margin: 0 auto;
+    }
+
+    .recommend_list li {
+        width: 50%;
+        padding: 0 0.769vw;
+        margin-bottom: 1.538vw;
+    }
+
+    /*recommend_section*/
 
 
-/*category section*/
+    /*category section*/
 
-.category_list {
-    margin: 0 auto;
-}
+    .category_list {
+        margin: 0 auto;
+    }
 
-.categoryitem_body {
-    min-height: 52.885vw;
-}
+    .categoryitem_body {
+        min-height: 52.885vw;
+    }
 
-.category_list li {
-    width: 50%;
-    padding: 0 0.769vw;
-    margin-bottom: 1.538vw;
-}
+    .category_list li {
+        width: 50%;
+        padding: 0 0.769vw;
+        margin-bottom: 1.538vw;
+    }
 
-.categoryitem_ttl {
-    padding: 1.250vw;
-    font-size: 2.308vw;
-}
+    .categoryitem_ttl {
+        padding: 1.250vw;
+        font-size: 2.308vw;
+    }
 
-.categoryitem_details {
-    padding: 0px 2.885vw;
-}
+    .categoryitem_details {
+        padding: 0px 2.885vw;
+    }
 
-.categoryitem_txt {
-    border-bottom: 0.192vw dotted #ccc;
-    padding: 1.442vw 0.481vw;
-    line-height: 1.8;
-    font-size: 1.250vw;
-}
+    .categoryitem_txt {
+        border-bottom: 0.192vw dotted #ccc;
+        padding: 1.442vw 0.481vw;
+        line-height: 1.8;
+        font-size: 1.250vw;
+    }
 
-.categoryitem_list {
-    padding: 15px 5px;
-}
+    .categoryitem_list {
+        padding: 15px 5px;
+    }
 
-.categoryitem_list li {
-    width: 100%;
-    padding: 0;
-    text-align: left;
-}
+    .categoryitem_list li {
+        width: 100%;
+        padding: 0;
+        text-align: left;
+    }
 
-.categoryitem_list a {
-    font-size: 1.346vw;
-    line-height: 2;
-}
+    .categoryitem_list a {
+        font-size: 1.346vw;
+        line-height: 2;
+    }
 
-.categoryitem_list a::after {
-    content: '';
-    border: solid #F18700;
-    border-width: 0 0.096vw 0.096vw 0;
-    padding: 0.288vw;
-    left: 0.481vw;
-}
+    .categoryitem_list a::after {
+        content: '';
+        border: solid #F18700;
+        border-width: 0 0.096vw 0.096vw 0;
+        padding: 0.288vw;
+        left: 0.481vw;
+    }
 
-/*category section*/
+    /*category section*/
 
-/*maggi top page*/
+    /*maggi top page*/
 
     /*bouillon-consomme*/
-    .bouillon_menu{
+    .bouillon_menu {
         margin-top: 1.923vw;
     }
-    .bouillon_menu07, 
-    .bouillon_menu28{
+
+    .bouillon_menu07,
+    .bouillon_menu28 {
         width: 20.096vw;
     }
-    .product_box_section .cooking_item{
+
+    .product_box_section .cooking_item {
         max-width: 27.500vw;
     }
-    .product_box_section .product_box_section .instruction_txt{
+
+    .product_box_section .product_box_section .instruction_txt {
         width: 26.923vw;
     }
-    .allergen{
+
+    .allergen {
         border: 0.096vw solid #F18700;
         border-radius: 0.096vw;
         margin: 0 0 3.846vw 0;
     }
-    .allergen .btn_click_detail{
+
+    .allergen .btn_click_detail {
         padding: 1.154vw 2.885vw;
     }
-    .allergen .btn_click_detail::after{
+
+    .allergen .btn_click_detail::after {
         margin-left: 1.923vw;
     }
-    .allergen.recipe_material_sec.show_detail .btn_click_detail::after{
+
+    .allergen.recipe_material_sec.show_detail .btn_click_detail::after {
         top: 1.635vw;
     }
-    .allergen_block{
+
+    .allergen_block {
         padding: 4.808vw 1.923vw;
     }
-    .item_bouillon{
+
+    .item_bouillon {
         margin-bottom: 0.962vw;
     }
+
     .ttl_material,
-    .ttl_bouillon{
+    .ttl_bouillon {
         margin-bottom: 1.923vw;
     }
-    .ttl_material{
+
+    .ttl_material {
         font-size: 2.885vw;
     }
-    .ttl_bouillon{
+
+    .ttl_bouillon {
         font-size: 3.269vw;
     }
-    .ttl_bouillon span{
+
+    .ttl_bouillon span {
         font-size: 3.846vw;
     }
-    .txt_material{
+
+    .txt_material {
         border-radius: 1.923vw;
         padding: 0.962vw;
     }
-    .material_img{
+
+    .material_img {
         max-width: 21.346vw;
     }
-    .doctor_info{
+
+    .doctor_info {
         padding: 4.327vw 4.327vw 0.962vw 4.327vw;
     }
-    .txt_recommend{
+
+    .txt_recommend {
         font-size: 1.923vw;
         padding: 0.962vw 1.442vw;
         margin-bottom: 1.154vw;
     }
-    .info_list{
+
+    .info_list {
         margin-bottom: 1.923vw;
     }
-    .info_img{
+
+    .info_img {
         max-width: 13.462vw;
     }
-    .txt_info_name{
+
+    .txt_info_name {
         font-size: 1.442vw;
         margin-bottom: 0.481vw;
     }
-    .info_content .txt_common_small{
+
+    .info_content .txt_common_small {
         font-size: 1.154vw;
     }
-    .info_history{
+
+    .info_history {
         margin-bottom: 1.923vw;
     }
-    .info_history .txt_common_small{
+
+    .info_history .txt_common_small {
         font-size: 1.154vw;
         margin-bottom: 0.962vw;
     }
-    .info_url::after{
+
+    .info_url::after {
         width: 1.442vw;
         height: 1.442vw;
         top: 0.288vw;
         right: 0;
     }
-    .column02 .txt_common_small{
+
+    .column02 .txt_common_small {
         margin-bottom: 2.885vw;
     }
-    .raw_material_block{
+
+    .raw_material_block {
         padding: 5.769vw 5.769vw 4.808vw 5.769vw;
     }
-    .ttl_allergy-specific{
+
+    .ttl_allergy-specific {
         margin-bottom: 2.404vw;
     }
-    .ttl_food_allergen{
+
+    .ttl_food_allergen {
         font-size: 2.885vw;
     }
-    .ttl_food_allergen sup{
+
+    .ttl_food_allergen sup {
         font-size: 2.404vw;
     }
-    .txt_raw_material{
+
+    .txt_raw_material {
         font-size: 2.115vw;
         margin-bottom: 2.404vw;
     }
-    .txt_second_material{
+
+    .txt_second_material {
         margin-bottom: 2.885vw;
     }
-    .allergen_list_table{
+
+    .allergen_list_table {
         border-left: 0.096vw solid #707070;
         border-right: 0.096vw solid #707070;
     }
-    .allergen_td{
+
+    .allergen_td {
         width: 9.589vw;
         padding: 1.154vw 0;
         border-right: 0.096vw solid #707070;
         border-bottom: 0.096vw solid #707070;
     }
-    .txt_none{
+
+    .txt_none {
         -webkit-background-size: 100% 3.846vw;
-             -o-background-size: 100% 3.846vw;
-                background-size: 100% 3.846vw;
+        -o-background-size: 100% 3.846vw;
+        background-size: 100% 3.846vw;
         width: 19.178vw;
     }
+
     /*end of bouillon-consomme*/
-    
+
     /*dessert*/
-    .item_box_des.featureimg{
+    .item_box_des.featureimg {
         width: 16.346vw;
     }
+
     /*end of dessert*/
 }
+
 /*end of Tablet*/
 
 /*For SP*/
 @media only screen and (max-width: 767px) {
 
-/*maggi top page*/
+    /*maggi top page*/
 
-/*mv_slider*/
-.current_maggitop .mv_sec{
-    margin-bottom: 1.3rem;
-    max-width: 100%;
-    padding: 0 0.35rem;
-    
-}
-.mv_slider {
-    width: 100%;
-    max-width: 100%;
-}
+    /*mv_slider*/
+    .current_maggitop .mv_sec {
+        margin-bottom: 1.3rem;
+        max-width: 100%;
+        padding: 0 0.35rem;
 
-.mv_detail {
-    width: 100%;
-    padding: 1rem 0;
-}
-
-.mv_ttl {
-    width: 100%;
-}
-
-.mv_ttl span {
-    font-size: 1rem;
-    text-align: left;
-    display: inline-block;
-    margin-bottom: 0.5rem;
-}
-
-.detail_txt {
-    font-size: .32rem;
-    line-height: 1.6;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0rem;
-}
-/*mv_slider*/
-
-/*recommend_section*/
-.sub_ttl{
-    font-size: .62rem;
-    border-bottom: .04rem solid #F18700;
-    margin-bottom: .6rem;
-}
-
-.recommend_section {
-    margin-bottom: 1.3rem;
-}
-
-.recommend_list {
-    margin: 0 auto;
-}
-
-.recommend_list li {
-    width: 100%;
-    padding: 0;
-    margin-bottom: .32rem;
-}
-/*recommend_section*/
-
-
-/*category section*/
-
-.category_list {
-    margin: 0 auto;
-}
-
-.categoryitem_body {
-    min-height: 10rem;
-}
-
-.category_list li {
-    width: 100%;
-    padding: 0;
-    margin-bottom: .32rem;
-}
-
-.categoryitem_ttl {
-    background-color: #FFEE09;
-    color: #000;
-    padding: 13px;
-    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-    font-size: 24px;
-    text-align: center;
-    font-weight: 700;
-}
-
-.categoryitem_ttl.bg_ttl01 {
-    background-color: #155729;
-    color: #fff;
-}
-
-.categoryitem_details {
-    font-weight: 500;
-    padding: 0px 30px;
-}
-
-
-.categoryitem_txt {
-    border-bottom: 2px dotted #ccc;
-    padding: 15px 5px;
-    line-height: 1.8;
-    text-align: left;
-    font-size: 13px;
-    color: #111111;
-}
-
-.categoryitem_list {
-    padding: 15px 5px;
-}
-
-.categoryitem_list li {
-    width: 100%;
-    padding: 0;
-    text-align: left;
-}
-
-.categoryitem_list a {
-    font-size: 14px;
-    display: inline-flex;
-    align-items: center;
-    line-height: 2;
-    text-decoration: none;
-    color: #111111;
-}
-
-.categoryitem_list a:hover {
-    text-decoration: none;
-    color: #F18700;
-}
-
-.categoryitem_list a::after {
-    content: '';
-    border: solid #F18700;
-  border-width: 0 1px 1px 0;
-  display: inline-block;
-  padding: 3px;
-  left: 5px;
-   transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
-/*category section*/
-
-/*maggi top page*/
-
-    /*bouillon-consomme*/
-    .bouillon_menu{
-        margin-top: 0.4rem;
     }
-    .bouillon_menu07, 
-    .bouillon_menu28{
-        width: 4.18rem;
-    }
-    .product_box_section .cooking_item{
+
+    .mv_slider {
+        width: 100%;
         max-width: 100%;
     }
-    .product_box_section .product_box_section .instruction_txt{
+
+    .mv_detail {
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    .mv_ttl {
+        width: 100%;
+    }
+
+    .mv_ttl span {
+        font-size: 1rem;
+        text-align: left;
+        display: inline-block;
+        margin-bottom: 0.5rem;
+    }
+
+    .detail_txt {
+        font-size: .32rem;
+        line-height: 1.6;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0rem;
+    }
+
+    /*mv_slider*/
+
+    /*recommend_section*/
+    .sub_ttl {
+        font-size: .62rem;
+        border-bottom: .04rem solid #F18700;
+        margin-bottom: .6rem;
+    }
+
+    .recommend_section {
+        margin-bottom: 1.3rem;
+    }
+
+    .recommend_list {
+        margin: 0 auto;
+    }
+
+    .recommend_list li {
+        width: 100%;
+        padding: 0;
+        margin-bottom: .32rem;
+    }
+
+    /*recommend_section*/
+
+
+    /*category section*/
+
+    .category_list {
+        margin: 0 auto;
+    }
+
+    .categoryitem_body {
+        min-height: 10rem;
+    }
+
+    .category_list li {
+        width: 100%;
+        padding: 0;
+        margin-bottom: .32rem;
+    }
+
+    .categoryitem_ttl {
+        background-color: #FFEE09;
+        color: #000;
+        padding: 13px;
+        font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+        font-size: 24px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .categoryitem_ttl.bg_ttl01 {
+        background-color: #155729;
+        color: #fff;
+    }
+
+    .categoryitem_details {
+        font-weight: 500;
+        padding: 0px 30px;
+    }
+
+
+    .categoryitem_txt {
+        border-bottom: 2px dotted #ccc;
+        padding: 15px 5px;
+        line-height: 1.8;
+        text-align: left;
+        font-size: 13px;
+        color: #111111;
+    }
+
+    .categoryitem_list {
+        padding: 15px 5px;
+    }
+
+    .categoryitem_list li {
+        width: 100%;
+        padding: 0;
+        text-align: left;
+    }
+
+    .categoryitem_list a {
+        font-size: 14px;
+        display: inline-flex;
+        align-items: center;
+        line-height: 2;
+        text-decoration: none;
+        color: #111111;
+    }
+
+    .categoryitem_list a:hover {
+        text-decoration: none;
+        color: #F18700;
+    }
+
+    .categoryitem_list a::after {
+        content: '';
+        border: solid #F18700;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: 3px;
+        left: 5px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+    /*category section*/
+
+    /*maggi top page*/
+
+    /*bouillon-consomme*/
+    .bouillon_menu {
+        margin-top: 0.4rem;
+    }
+
+    .bouillon_menu07,
+    .bouillon_menu28 {
+        width: 4.18rem;
+    }
+
+    .product_box_section .cooking_item {
+        max-width: 100%;
+    }
+
+    .product_box_section .product_box_section .instruction_txt {
         width: 4.28rem;
     }
-    .allergen{
+
+    .allergen {
         border: 0.02rem solid #F18700;
         border-radius: 0.10rem;
         margin: 0 0 0.8rem 0;
     }
-    .allergen .btn_click_detail{
+
+    .allergen .btn_click_detail {
         padding: 0.24rem 0.60rem;
     }
-    .allergen .btn_click_detail::after{
+
+    .allergen .btn_click_detail::after {
         margin-left: 0.40rem;
     }
-    .allergen.recipe_material_sec.show_detail .btn_click_detail::after{
+
+    .allergen.recipe_material_sec.show_detail .btn_click_detail::after {
         top: 0.34rem;
     }
-    .allergen_block{
+
+    .allergen_block {
         padding: 0.40rem 0.20rem;
     }
-    .item_material{
+
+    .item_material {
         width: 100%;
     }
+
     .ttl_material,
-    .ttl_bouillon{
+    .ttl_bouillon {
         margin-bottom: 0.40rem;
     }
-    .ttl_material{
+
+    .ttl_material {
         font-size: 0.42rem;
     }
-    .ttl_bouillon{
+
+    .ttl_bouillon {
         font-size: 0.42rem;
     }
-    .ttl_bouillon span{
+
+    .ttl_bouillon span {
         font-size: 0.5rem;
     }
-    .txt_material{
+
+    .txt_material {
         border-radius: 0.80rem;
         padding: 0.20rem 0.34rem;
     }
-    .txt_material span{
+
+    .txt_material span {
         font-size: 0.32rem;
     }
-    .material_img{
+
+    .material_img {
         width: 100%;
         max-width: 100%;
     }
-    .doctor_info{
+
+    .doctor_info {
         padding: 0.3rem 0.2rem;
     }
-    .txt_recommend{
+
+    .txt_recommend {
         font-size: 0.40rem;
         padding: 0.20rem 0.30rem;
         margin-bottom: 0.24rem;
         line-height: 1.2;
     }
-    .info_column{
+
+    .info_column {
         width: 100%;
     }
-    .info_list{
+
+    .info_list {
         margin-bottom: 0.40rem;
     }
-    .info_img{
+
+    .info_img {
         width: 100%;
         max-width: 2.80rem;
         margin: 0 auto;
     }
-    .info_content{
+
+    .info_content {
         width: 100%;
     }
-    .txt_info_name{
+
+    .txt_info_name {
         font-size: 0.36rem;
         margin-bottom: 0.10rem;
         text-align: center;
     }
-    .info_content .txt_common_small{
+
+    .info_content .txt_common_small {
         font-size: 0.24rem;
     }
-    .info_history{
+
+    .info_history {
         margin-bottom: 0.40rem;
     }
-    .info_history .txt_common_small{
+
+    .info_history .txt_common_small {
         font-size: 0.24rem;
         margin-bottom: 0.20rem;
     }
-    .info_url{
+
+    .info_url {
         margin-bottom: 0.40rem;
     }
-    .info_url::after{
+
+    .info_url::after {
         -webkit-background-size: 0.30rem 0.30rem;
-             -o-background-size: 0.30rem 0.30rem;
-                background-size: 0.30rem 0.30rem;
+        -o-background-size: 0.30rem 0.30rem;
+        background-size: 0.30rem 0.30rem;
         width: 0.30rem;
         height: 0.30rem;
         top: 0.06rem;
         right: 0;
     }
-    .column02 .txt_common_small{
+
+    .column02 .txt_common_small {
         margin-bottom: 0.40rem;
     }
-    .column02 .txt_common_small span{
+
+    .column02 .txt_common_small span {
         font-size: .28rem;
     }
-    .raw_material_block{
+
+    .raw_material_block {
         padding: 0.8rem 0.20rem 0.8rem 0.20rem;
     }
-    .ttl_allergy-specific{
+
+    .ttl_allergy-specific {
         margin-bottom: 0.50rem;
     }
-    .ttl_food_allergen{
+
+    .ttl_food_allergen {
         font-size: 0.48rem;
     }
-    .ttl_food_allergen sup{
+
+    .ttl_food_allergen sup {
         font-size: 0.32rem;
     }
-    .txt_raw_material{
+
+    .txt_raw_material {
         font-size: 0.42rem;
         margin-bottom: 0.50rem;
     }
-    .txt_second_material{
+
+    .txt_second_material {
         margin-bottom: 0.60rem;
     }
-    .allergen_list_table{
+
+    .allergen_list_table {
         border-left: 0.02rem solid #707070;
         border-right: 0.02rem solid #707070;
     }
-    .allergen_td{
+
+    .allergen_td {
         width: 1.8rem;
         padding: 0.24rem 0;
         border-right: 0.02rem solid #707070;
         border-bottom: 0.02rem solid #707070;
     }
-    .allergen_td .txt_common{
+
+    .allergen_td .txt_common {
         line-height: 1.5;
     }
-    .allergen_td:nth-child(3n+3){
+
+    .allergen_td:nth-child(3n+3) {
         border-right: 0;
     }
-    .txt_none{
+
+    .txt_none {
         -webkit-background-size: 100% 0.96rem;
-             -o-background-size: 100% 0.96rem;
-                background-size: 100% 0.96rem;
+        -o-background-size: 100% 0.96rem;
+        background-size: 100% 0.96rem;
         width: 3.6rem;
     }
+
     /*end of bouillon-consomme*/
-    
+
     /*dessert*/
-    .item_box_des.featureimg{
+    .item_box_des.featureimg {
         width: 3.4rem;
     }
+
     /*end of dessert*/
 }
+
 /*end of SP*/

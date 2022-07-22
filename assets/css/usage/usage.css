@@ -1,0 +1,18 @@
+/*usage module css*/
+@charset "utf-8";
+@import "usage_list_module.css";
+/*end usage module*/
+
+
+.inner{
+	width: 960px;
+	margin: 0 auto;
+}
+.mb_20{
+	margin-bottom: 20px;
+}
+.mb_50{
+	margin-bottom: 50px;
+}
+
+/*For PC*/
