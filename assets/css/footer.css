@@ -110,7 +110,6 @@ footer a{
 
 .footer_sec .txt_nestle {
     color: #818181;
-    text-transform: uppercase;
     font-size: 13px;
 }
 .page_top{
@@ -188,7 +187,7 @@ footer .inner {
 
 .footer_sec .logo_sec {
     width: 12.500vw;
-    margin-right: 7.500vw;
+    margin-right: 6.500vw;
 }
 
 .footer_sec a {

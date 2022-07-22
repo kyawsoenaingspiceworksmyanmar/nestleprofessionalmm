@@ -140,5 +140,6 @@ $(document).ready(function() {
             easing: 'swing'
         });
     });
+    document.getElementById("cyears").innerHTML = "® Nestlé "+ new Date().getFullYear();
   });
 

@@ -13,7 +13,7 @@ header a{
     max-width: 1000px;
     position: relative;
     margin: 0 auto;
-    padding-bottom: 32px;
+    padding-bottom: 33px;
 }
 
 
@@ -24,7 +24,9 @@ header a{
 .logo {
     display: inline-block;
     position: relative;
-    padding: 25px 0;
+    padding: 20px 0;
+    width: 212px;
+    margin-left: 20px;
 }
 
 .logo img {
@@ -57,6 +59,10 @@ header a{
     line-height: 40px;
     text-transform: uppercase;
     font-size: 15px;
+}
+.p_menu a.active{
+    border-bottom: 1px solid #ac1637;
+    color: #ac1637;
 }
 
 .p_menu:hover {
@@ -134,12 +140,14 @@ header a{
     width: 100%;
     max-width: 78.125%;
     margin: 0 auto;
-    padding-bottom: 2.500vw;
+    padding-bottom: 3.173vw;
 
 }
 
 .logo {
     padding: 1.563vw 0;
+    width: 20.385vw;
+    margin-left: 1.923vw;
 }
 .menu_list {
     right: 0;
@@ -304,6 +312,7 @@ header a{
 
     .sub_menu a {
         font-size: .26rem;
+        line-height: 1.2;
     }
 
     .sub_menu li {
@@ -391,9 +400,18 @@ header a{
         width: 100%;
         margin: 0 auto;
     }
+    .p_menu a.active{
+        border-bottom: none;
+    }
     .p_menu a.active,
     .sub_menu a.active{
         color: #f39801;
+    }
+    .p_menu:hover .sub_menu a {
+        color: #ffffff;
+    }
+    .p_menu:hover .sub_menu{
+        animation: paused;
     }
 
 }
