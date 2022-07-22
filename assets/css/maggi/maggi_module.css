@@ -137,6 +137,12 @@ br.only_pc{
 }
 .instruction_box {
     margin: 5px 0;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.instruction_box.top_align{
+    -webkit-align-items: start;
+            align-items: start;
 }
 .instruction {
    display: inline;
